@@ -1,0 +1,6 @@
+corridor,features,polygon_parts,area_km2,valid,min_lon,min_lat,max_lon,max_lat
+larchmont_boulevard,1,1,0.3707,True,-118.324831,34.068049,-118.322444,34.084403
+olympic_boulevard,1,9,1.1727,True,-118.351324,34.048297,-118.273107,34.058221
+vermont_avenue,1,1,1.0649,True,-118.292813,34.03816,-118.290487,34.08656
+western_avenue,1,1,0.1491,True,-118.310207,34.061695,-118.308014,34.068422
+wilshire_boulevard,1,7,1.2975,True,-118.3516,34.056489,-118.273611,34.06325

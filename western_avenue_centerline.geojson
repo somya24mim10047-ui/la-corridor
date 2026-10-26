@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "western_avenue_centerline",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "corridor": "Western Avenue" }, "geometry": { "type": "LineString", "coordinates": [ [ -118.309097639085167, 34.061698000977749 ], [ -118.309100160704261, 34.06234270964169 ], [ -118.309104776248205, 34.063520420248445 ], [ -118.309111820836677, 34.065335066046984 ], [ -118.30911886362847, 34.06714808646187 ], [ -118.30912392682238, 34.068418688377072 ] ] } }
+]
+}

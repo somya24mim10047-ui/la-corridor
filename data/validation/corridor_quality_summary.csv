@@ -1,0 +1,6 @@
+corridor,business_records,unique_valid_locations,median_road_distance_m,unique_locations_within_25m,unique_locations_within_50m,unique_locations_over_50m,invalid_records,within_25m_percent,within_50m_percent
+larchmont_boulevard,823,173,5.86,116,173,0,0,67.1,100.0
+olympic_boulevard,1329,396,11.48,295,382,14,0,74.5,96.5
+vermont_avenue,1074,340,7.87,215,328,12,0,63.2,96.5
+western_avenue,251,75,36.63,44,72,3,0,58.7,96.0
+wilshire_boulevard,6188,506,16.62,312,438,68,0,61.7,86.6

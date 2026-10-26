@@ -1,0 +1,44 @@
+﻿ENDPOINT AND ROAD-SOURCE FINDINGS
+================================
+
+LARCHMONT BOULEVARD
+- Official source: 9 LineString features.
+- Feature 1 and feature 5 connect exactly.
+- Feature 5 (OBJECTID 131648, range 600-698) continues north
+  to latitude 34.083501.
+- Several other segment endpoints coincide or lie within about 18 m.
+- One northern endpoint has no other segment endpoint within about 201 m.
+- Status: road coverage structurally checked; intended terminal extent
+  still requires confirmation.
+
+OLYMPIC BOULEVARD
+- Official source: 74 LineString features.
+- Flagged OBJECTIDs: 79807 and 98752.
+- Endpoint flags: 126.02 m and 105.78 m.
+- Individual segment coordinate review has not yet been captured
+  in this report.
+- Status: unresolved.
+
+VERMONT AVENUE
+- Official source: 122 LineString features.
+- Flagged segment OBJECTID 81212, address range 4701-4739.
+- Coordinates are present; segment runs approximately north-south.
+- Endpoint flag: 103.78 m.
+- Status: unresolved pending intended-extent and connectivity review.
+
+WILSHIRE BOULEVARD
+- Official source: 85 LineString features.
+- Flagged segment OBJECTID 108976, address range 2001-2099.
+- Three coordinates are present.
+- Endpoint flag: 125.84 m.
+- Status: unresolved pending intended-extent and connectivity review.
+
+LIMITATIONS
+-----------
+Endpoint-to-endpoint proximity does not prove that road segments
+are connected through the full street network. A flagged endpoint
+may be a legitimate corridor terminus or intersection. These checks
+do not establish the intended start/end of each corridor.
+
+No source geometry or business records were modified.
+Final boundary approval and final clustering remain pending.

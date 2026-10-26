@@ -1,0 +1,3 @@
+corridor,business_name,street_address,latitude,longitude,issue,action
+vermont_avenue,ELENA L GARCIA,225 N VERMONT AVENUE #419,34.0761,-118.3031,Recorded coordinates do not appear to match the street address,Manual review; verify against authoritative geocoding
+olympic_boulevard,SJ INVESTMENT 2020 LLC,3400 W OLYMPIC BLVD,34.0487,-118.3362,Recorded coordinates do not appear to match the street address,Manual review; verify against authoritative geocoding

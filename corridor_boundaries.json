@@ -1,0 +1,28 @@
+
+{
+  "western_avenue": {
+    "start_description": "",
+    "end_description": "",
+    "status": "pending_review"
+  },
+  "wilshire_boulevard": {
+    "start_description": "",
+    "end_description": "",
+    "status": "pending_review"
+  },
+  "olympic_boulevard": {
+    "start_description": "",
+    "end_description": "",
+    "status": "pending_review"
+  },
+  "vermont_avenue": {
+    "start_description": "",
+    "end_description": "",
+    "status": "pending_review"
+  },
+  "larchmont_boulevard": {
+    "start_description": "",
+    "end_description": "",
+    "status": "pending_review"
+  }
+}

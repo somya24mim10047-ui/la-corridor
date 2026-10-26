@@ -1,0 +1,13 @@
+method,setting,clusters,noise,largest_cluster,silhouette
+DBSCAN,"eps=25m, min_samples=4",4,33,21,0.666
+DBSCAN,"eps=30m, min_samples=4",4,23,24,0.705
+DBSCAN,"eps=35m, min_samples=4",4,18,26,0.684
+DBSCAN,"eps=40m, min_samples=4",4,7,26,0.682
+DBSCAN,"eps=45m, min_samples=4",4,2,26,0.637
+DBSCAN,"eps=50m, min_samples=4",2,1,64,0.393
+HDBSCAN,"min_cluster_size=4, min_samples=2",5,11,19,0.586
+HDBSCAN,"min_cluster_size=4, min_samples=4",4,6,26,0.651
+HDBSCAN,"min_cluster_size=5, min_samples=2",4,3,26,0.646
+HDBSCAN,"min_cluster_size=5, min_samples=4",4,6,26,0.651
+HDBSCAN,"min_cluster_size=6, min_samples=2",4,3,26,0.646
+HDBSCAN,"min_cluster_size=6, min_samples=4",4,6,26,0.651

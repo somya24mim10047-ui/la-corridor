@@ -1,0 +1,80 @@
+﻿CONSOLIDATED CORRIDOR VALIDATION STATUS
+======================================
+
+STATUS: PROVISIONAL — NOT READY FOR FINAL CLUSTERING
+
+1. WORKING BOUNDARIES
+---------------------
+Larchmont Boulevard: 50 m candidate
+- 823/823 businesses inside (100.00%)
+- Endpoint review remains unresolved.
+
+Olympic Boulevard: 100 m candidate
+- 1327/1329 businesses inside (99.85%)
+- Two business exceptions remain unresolved.
+- Two endpoint flags remain unresolved.
+
+Vermont Avenue: 100 m candidate
+- 1073/1074 businesses inside (99.91%)
+- One major coordinate/road-coverage discrepancy remains.
+- One endpoint flag remains unresolved.
+
+Wilshire Boulevard: 100 m working candidate; 125 m comparison candidate
+- At 100 m: 5683/6188 businesses inside (91.84%).
+- At 125 m: 6131/6188 businesses inside (99.08%).
+- At 125 m: 57 businesses remain outside, in six coordinate groups.
+- One endpoint flag remains unresolved.
+- Do not select 125 m based on inclusion percentage alone.
+
+2. UNRESOLVED BUSINESS EXCEPTIONS
+---------------------------------
+Olympic Boulevard:
+- SJ INVESTMENT 2020 LLC, 3400 W OLYMPIC BLVD:
+  920.25 m from included Olympic geometry.
+- LOS ANGELES HIGH SCHOOL ALUMNI ASSOCIATION,
+  4650 W OLYMPIC BLVD:
+  162.01 m from included Olympic geometry.
+
+Vermont Avenue:
+- ELENA L GARCIA, 225 N VERMONT AVENUE #419:
+  1052.31 m from included Vermont geometry.
+
+Wilshire Boulevard:
+- 57 records outside the 125 m candidate.
+- Six coordinate groups require address and nearby-street review.
+- Groups include 3440 Wilshire Boulevard and 680–690 Wilshire Place.
+
+3. FLAGGED ROAD ENDPOINTS
+-------------------------
+Larchmont Boulevard:
+- OBJECTID 131648; range 600–698; flag distance 201.78 m.
+
+Olympic Boulevard:
+- OBJECTID 79807; range 1601–1699; flag distance 126.02 m.
+- OBJECTID 98752; range 5501–5549; flag distance 105.78 m.
+
+Vermont Avenue:
+- OBJECTID 81212; range 4701–4739; flag distance 103.78 m.
+
+Wilshire Boulevard:
+- OBJECTID 108976; range 2001–2099; flag distance 125.84 m.
+
+These are diagnostic flags, not proof of missing road segments.
+Visual and intersection-level verification is still required.
+
+4. REQUIRED BEFORE FINAL CLUSTERING
+-----------------------------------
+[ ] Confirm intended start and end points for each corridor.
+[ ] Verify flagged endpoints against intersections and road coverage.
+[ ] Investigate business address/coordinate exceptions.
+[ ] Approve corridor definitions and buffer widths with documented reasons.
+[ ] Preserve original records and record any inclusion/exclusion decisions.
+[ ] Run final clustering into a new output directory after approval.
+
+5. DATA-PRESERVATION DECISION
+-----------------------------
+No source business records or road geometries should be deleted,
+relocated, or overwritten to improve inclusion percentages.
+Existing clustering results remain provisional.
+
+FINAL STATUS: BOUNDARIES NOT YET APPROVED.

@@ -1,0 +1,6 @@
+corridor,business_records,unique_locations,median_road_distance_m,unique_locations_within_25m,unique_locations_within_50m,road_source
+western_avenue,251,75,36.63,44,72,City of Los Angeles street centerlines
+wilshire_boulevard,6188,506,16.62,312,438,City of Los Angeles street centerlines
+olympic_boulevard,1329,396,11.48,295,382,City of Los Angeles street centerlines
+vermont_avenue,1074,340,7.87,215,328,City of Los Angeles street centerlines
+larchmont_boulevard,823,173,5.86,116,173,City of Los Angeles street centerlines

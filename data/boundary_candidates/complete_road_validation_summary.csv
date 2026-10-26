@@ -1,0 +1,13 @@
+corridor,official_road_features,road_length_km,buffer_m,business_records_total,business_records_inside,percent_inside,median_road_distance_m
+wilshire_boulevard,85,7.844,50,6188,4356,70.39,16.62
+wilshire_boulevard,85,7.844,100,6188,5683,91.84,16.62
+wilshire_boulevard,85,7.844,150,6188,6178,99.84,16.62
+olympic_boulevard,74,7.193,50,1329,1266,95.26,11.48
+olympic_boulevard,74,7.193,100,1329,1327,99.85,11.48
+olympic_boulevard,74,7.193,150,1329,1327,99.85,11.48
+vermont_avenue,122,14.158,50,1074,1031,96.0,7.87
+vermont_avenue,122,14.158,100,1074,1073,99.91,7.87
+vermont_avenue,122,14.158,150,1074,1073,99.91,7.87
+larchmont_boulevard,9,2.419,50,823,823,100.0,5.86
+larchmont_boulevard,9,2.419,100,823,823,100.0,5.86
+larchmont_boulevard,9,2.419,150,823,823,100.0,5.86

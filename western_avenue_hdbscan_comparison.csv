@@ -1,0 +1,5 @@
+dataset,method,locations,clusters,noise_locations
+All business records,DBSCAN (40m),251,7,2
+All business records,HDBSCAN,251,19,52
+Unique coordinate pairs,DBSCAN (40m),75,4,7
+Unique coordinate pairs,HDBSCAN,75,4,6

@@ -1,0 +1,5 @@
+corridor,buffer_m,area_km2,businesses_total,businesses_inside,businesses_outside,inside_percent,polygon_parts,geometry_valid,candidate_file
+olympic_boulevard,50,0.7270920992765155,1329,1266,63,95.25959367945825,1,True,data\final_corridor_boundaries\selection_candidates\olympic_boulevard_50m_candidate.geojson
+olympic_boulevard,100,1.4698352910376309,1329,1327,2,99.84951091045899,1,True,data\final_corridor_boundaries\selection_candidates\olympic_boulevard_100m_candidate.geojson
+wilshire_boulevard,50,0.7311527255554321,6188,4356,1832,70.39431157078216,1,True,data\final_corridor_boundaries\selection_candidates\wilshire_boulevard_50m_candidate.geojson
+wilshire_boulevard,100,1.469375436282531,6188,5683,505,91.83904330963153,1,True,data\final_corridor_boundaries\selection_candidates\wilshire_boulevard_100m_candidate.geojson

@@ -1,0 +1,7 @@
+corridor,method,buffer_m,businesses_inside,businesses_outside,current_boundary_inside,outside_current_but_inside_candidate,candidate_polygon_parts
+olympic_boulevard,complete_road_buffer_25m,25,992,337,1114,143,1
+olympic_boulevard,complete_road_buffer_50m,50,1266,63,1114,210,1
+olympic_boulevard,complete_road_buffer_100m,100,1327,2,1114,213,1
+wilshire_boulevard,complete_road_buffer_25m,25,3285,2903,5361,187,1
+wilshire_boulevard,complete_road_buffer_50m,50,4356,1832,5361,230,1
+wilshire_boulevard,complete_road_buffer_100m,100,5683,505,5361,356,1

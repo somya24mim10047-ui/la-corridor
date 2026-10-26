@@ -1,0 +1,2582 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c4f8b2a9cf93a80fd1db617f0032eec0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c4f8b2a9cf93a80fd1db617f0032eec0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c4f8b2a9cf93a80fd1db617f0032eec0 = L.map(
+                "map_c4f8b2a9cf93a80fd1db617f0032eec0",
+                {
+                    center: [34.06567066666666, -118.30914533333332],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4cedfa49926557420c1d1e3ed8048eae = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4cedfa49926557420c1d1e3ed8048eae.addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+            var circle_marker_115b207a3145e27e1e0d7da5d8a7f6a4 = L.circleMarker(
+                [34.0674, -118.3087],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_3e1958308c89791c8cfbed44b59a906b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bfe10dad961b1b449073cc287d79354 = $(`<div id="html_5bfe10dad961b1b449073cc287d79354" style="width: 100.0%; height: 100.0%;">Business: L.A. NAK GI CORP.<br>Address: 356 S WESTERN AVENUE SUITE #203<br>Distance to matching road: 38.74995202506014 m</div>`)[0];
+                popup_3e1958308c89791c8cfbed44b59a906b.setContent(html_5bfe10dad961b1b449073cc287d79354);
+            
+        
+
+        circle_marker_115b207a3145e27e1e0d7da5d8a7f6a4.bindPopup(popup_3e1958308c89791c8cfbed44b59a906b)
+        ;
+
+        
+    
+    
+            circle_marker_115b207a3145e27e1e0d7da5d8a7f6a4.bindTooltip(
+                `<div>
+                     356 S WESTERN AVENUE SUITE #203
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7f4eb215bb558f89abaf8dc06a05f49d = L.circleMarker(
+                [34.0679, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_92241c26f0dba9d87378487bb8e5f648 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bd7253310be71e4549d342d6aadceb5 = $(`<div id="html_1bd7253310be71e4549d342d6aadceb5" style="width: 100.0%; height: 100.0%;">Business: LONDON PROPERTIES LLC<br>Address: 356 S WESTERN AVENUE SUITE #200<br>Distance to matching road: 2.017450951403881 m</div>`)[0];
+                popup_92241c26f0dba9d87378487bb8e5f648.setContent(html_1bd7253310be71e4549d342d6aadceb5);
+            
+        
+
+        circle_marker_7f4eb215bb558f89abaf8dc06a05f49d.bindPopup(popup_92241c26f0dba9d87378487bb8e5f648)
+        ;
+
+        
+    
+    
+            circle_marker_7f4eb215bb558f89abaf8dc06a05f49d.bindTooltip(
+                `<div>
+                     356 S WESTERN AVENUE SUITE #200
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f2909075f9dcf103ff7a88446262b318 = L.circleMarker(
+                [34.066, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_ddc78d735f107a4877c02afac2e223d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e710e9680a0238c3fe15701346f7dbbb = $(`<div id="html_e710e9680a0238c3fe15701346f7dbbb" style="width: 100.0%; height: 100.0%;">Business: HEE JA JUNG<br>Address: 459 S WESTERN AVENUE<br>Distance to matching road: 1.3293464451086083 m</div>`)[0];
+                popup_ddc78d735f107a4877c02afac2e223d9.setContent(html_e710e9680a0238c3fe15701346f7dbbb);
+            
+        
+
+        circle_marker_f2909075f9dcf103ff7a88446262b318.bindPopup(popup_ddc78d735f107a4877c02afac2e223d9)
+        ;
+
+        
+    
+    
+            circle_marker_f2909075f9dcf103ff7a88446262b318.bindTooltip(
+                `<div>
+                     459 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8024b6cbd5bbb00629bdc4a42fdbdabd = L.circleMarker(
+                [34.0628, -118.3098],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_9f8d6c34f50a478d965c3cf117042482 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15f562450f8775eef38b6531216b3568 = $(`<div id="html_15f562450f8775eef38b6531216b3568" style="width: 100.0%; height: 100.0%;">Business: TONY JUNG KIM<br>Address: 621 S WESTERN AVENUE UNIT #205<br>Distance to matching road: 64.42692656381348 m</div>`)[0];
+                popup_9f8d6c34f50a478d965c3cf117042482.setContent(html_15f562450f8775eef38b6531216b3568);
+            
+        
+
+        circle_marker_8024b6cbd5bbb00629bdc4a42fdbdabd.bindPopup(popup_9f8d6c34f50a478d965c3cf117042482)
+        ;
+
+        
+    
+    
+            circle_marker_8024b6cbd5bbb00629bdc4a42fdbdabd.bindTooltip(
+                `<div>
+                     621 S WESTERN AVENUE UNIT #205
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6d8398028931b3daac6aa30e92ce24a4 = L.circleMarker(
+                [34.0643, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_937f49b03ab40f4ecc8717811df0ee07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_775d229829c1ed8755516eb1ff24f3b9 = $(`<div id="html_775d229829c1ed8755516eb1ff24f3b9" style="width: 100.0%; height: 100.0%;">Business: LEEHWABIZ INC<br>Address: 555 S WESTERN AVENUE SUITE #210<br>Distance to matching road: 0.7201205965682855 m</div>`)[0];
+                popup_937f49b03ab40f4ecc8717811df0ee07.setContent(html_775d229829c1ed8755516eb1ff24f3b9);
+            
+        
+
+        circle_marker_6d8398028931b3daac6aa30e92ce24a4.bindPopup(popup_937f49b03ab40f4ecc8717811df0ee07)
+        ;
+
+        
+    
+    
+            circle_marker_6d8398028931b3daac6aa30e92ce24a4.bindTooltip(
+                `<div>
+                     555 S WESTERN AVENUE SUITE #210
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1cb108a295258b2382e2465f92784cc8 = L.circleMarker(
+                [34.0685, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_087168b5d25ab71d67d48b557347078c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_df6c61304ee95076b8cd10363ac3a5a7 = $(`<div id="html_df6c61304ee95076b8cd10363ac3a5a7" style="width: 100.0%; height: 100.0%;">Business: JAE SEONG JEONG<br>Address: 321 S WESTERN AVENUE<br>Distance to matching road: 2.2381060754065447 m</div>`)[0];
+                popup_087168b5d25ab71d67d48b557347078c.setContent(html_df6c61304ee95076b8cd10363ac3a5a7);
+            
+        
+
+        circle_marker_1cb108a295258b2382e2465f92784cc8.bindPopup(popup_087168b5d25ab71d67d48b557347078c)
+        ;
+
+        
+    
+    
+            circle_marker_1cb108a295258b2382e2465f92784cc8.bindTooltip(
+                `<div>
+                     321 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_760f570b530af94683f08ac591a88aff = L.circleMarker(
+                [34.066, -118.3095],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_e02b4b5b025cb1be4791204ad886bcef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_433cbdae193f7fddc58f83b5bb08bba2 = $(`<div id="html_433cbdae193f7fddc58f83b5bb08bba2" style="width: 100.0%; height: 100.0%;">Business: GATEWAY LOS ANGELES INC<br>Address: 439 S WESTERN AVENUE SUITE #204<br>Distance to matching road: 35.587644844161034 m</div>`)[0];
+                popup_e02b4b5b025cb1be4791204ad886bcef.setContent(html_433cbdae193f7fddc58f83b5bb08bba2);
+            
+        
+
+        circle_marker_760f570b530af94683f08ac591a88aff.bindPopup(popup_e02b4b5b025cb1be4791204ad886bcef)
+        ;
+
+        
+    
+    
+            circle_marker_760f570b530af94683f08ac591a88aff.bindTooltip(
+                `<div>
+                     439 S WESTERN AVENUE SUITE #204
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_560bb2ac2fa69c5e027d17014b336d6b = L.circleMarker(
+                [34.0674, -118.3095],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_2e3e884cfd6f42635dd79e77d082682e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f42712cd62737d1b0a8e262256f8aed = $(`<div id="html_0f42712cd62737d1b0a8e262256f8aed" style="width: 100.0%; height: 100.0%;">Business: GREEN RANCH WHOLESALE INC<br>Address: 355 S WESTERN AVENUE UNIT #101<br>Distance to matching road: 35.08279206208898 m</div>`)[0];
+                popup_2e3e884cfd6f42635dd79e77d082682e.setContent(html_0f42712cd62737d1b0a8e262256f8aed);
+            
+        
+
+        circle_marker_560bb2ac2fa69c5e027d17014b336d6b.bindPopup(popup_2e3e884cfd6f42635dd79e77d082682e)
+        ;
+
+        
+    
+    
+            circle_marker_560bb2ac2fa69c5e027d17014b336d6b.bindTooltip(
+                `<div>
+                     355 S WESTERN AVENUE UNIT #101
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8cad264dbc4b3a17fed5e959e7b84a34 = L.circleMarker(
+                [34.0678, -118.3087],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_99b3fd83fe7655f5e4be8ca9eb24527a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09582e276e7455b17f328e9014402783 = $(`<div id="html_09582e276e7455b17f328e9014402783" style="width: 100.0%; height: 100.0%;">Business: JUNGIM YOO<br>Address: 338 S WESTERN AVENUE SUITE #M205<br>Distance to matching road: 38.89687307804259 m</div>`)[0];
+                popup_99b3fd83fe7655f5e4be8ca9eb24527a.setContent(html_09582e276e7455b17f328e9014402783);
+            
+        
+
+        circle_marker_8cad264dbc4b3a17fed5e959e7b84a34.bindPopup(popup_99b3fd83fe7655f5e4be8ca9eb24527a)
+        ;
+
+        
+    
+    
+            circle_marker_8cad264dbc4b3a17fed5e959e7b84a34.bindTooltip(
+                `<div>
+                     338 S WESTERN AVENUE SUITE #M205
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e1904a0771319edce40ecce7c1b81c52 = L.circleMarker(
+                [34.0624, -118.309],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_565ebc90f811f595189f33e51e6c3023 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f022021c9fb363cacf6d7c77b5cd99c = $(`<div id="html_1f022021c9fb363cacf6d7c77b5cd99c" style="width: 100.0%; height: 100.0%;">Business: DAISO USA LLC<br>Address: 621 S WESTERN AVENUE SUITE #107<br>Distance to matching road: 9.265190693066035 m</div>`)[0];
+                popup_565ebc90f811f595189f33e51e6c3023.setContent(html_1f022021c9fb363cacf6d7c77b5cd99c);
+            
+        
+
+        circle_marker_e1904a0771319edce40ecce7c1b81c52.bindPopup(popup_565ebc90f811f595189f33e51e6c3023)
+        ;
+
+        
+    
+    
+            circle_marker_e1904a0771319edce40ecce7c1b81c52.bindTooltip(
+                `<div>
+                     621 S WESTERN AVENUE SUITE #107
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b1bcf5f1d614ce4ab7356d271701b19 = L.circleMarker(
+                [34.0682, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_313730ccb8798a34d61f4d8a5f443409 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31d48668134aa694f97615030cb2ad23 = $(`<div id="html_31d48668134aa694f97615030cb2ad23" style="width: 100.0%; height: 100.0%;">Business: WEST COAST INC<br>Address: 337 S WESTERN AVENUE<br>Distance to matching road: 2.12777686223803 m</div>`)[0];
+                popup_313730ccb8798a34d61f4d8a5f443409.setContent(html_31d48668134aa694f97615030cb2ad23);
+            
+        
+
+        circle_marker_8b1bcf5f1d614ce4ab7356d271701b19.bindPopup(popup_313730ccb8798a34d61f4d8a5f443409)
+        ;
+
+        
+    
+    
+            circle_marker_8b1bcf5f1d614ce4ab7356d271701b19.bindTooltip(
+                `<div>
+                     337 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_778152db8c6eccde6b4c33ea78b373b5 = L.circleMarker(
+                [34.0671, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_6765d0449d854f6504fcf9c49fdd66c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c157c094d1b17b0e8a19935163489bb = $(`<div id="html_4c157c094d1b17b0e8a19935163489bb" style="width: 100.0%; height: 100.0%;">Business: TIFFANY HAIR STUDIO INC<br>Address: 400 S WESTERN AVENUE SUITE #201<br>Distance to matching road: 1.7237069781847023 m</div>`)[0];
+                popup_6765d0449d854f6504fcf9c49fdd66c6.setContent(html_4c157c094d1b17b0e8a19935163489bb);
+            
+        
+
+        circle_marker_778152db8c6eccde6b4c33ea78b373b5.bindPopup(popup_6765d0449d854f6504fcf9c49fdd66c6)
+        ;
+
+        
+    
+    
+            circle_marker_778152db8c6eccde6b4c33ea78b373b5.bindTooltip(
+                `<div>
+                     400 S WESTERN AVENUE SUITE #201
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8f73be2cd6fd547c5e7e5fe782542bf5 = L.circleMarker(
+                [34.0662, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_c6c7e60637ec18626bbf6ca3271be5ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fa7501f2b41a3e01936160ac98d66e5 = $(`<div id="html_2fa7501f2b41a3e01936160ac98d66e5" style="width: 100.0%; height: 100.0%;">Business: GUARDIAN COMPUTER INC<br>Address: 450 S WESTERN AVENUE SUITE #214<br>Distance to matching road: 1.4010450579955918 m</div>`)[0];
+                popup_c6c7e60637ec18626bbf6ca3271be5ea.setContent(html_2fa7501f2b41a3e01936160ac98d66e5);
+            
+        
+
+        circle_marker_8f73be2cd6fd547c5e7e5fe782542bf5.bindPopup(popup_c6c7e60637ec18626bbf6ca3271be5ea)
+        ;
+
+        
+    
+    
+            circle_marker_8f73be2cd6fd547c5e7e5fe782542bf5.bindTooltip(
+                `<div>
+                     450 S WESTERN AVENUE SUITE #214
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_34cc6da1f46b04bd51d060a16c81bd68 = L.circleMarker(
+                [34.0678, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_610fbe05245fbf0e62746842871a570d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58fe8871382314ea3e89d1cadc5a5bb7 = $(`<div id="html_58fe8871382314ea3e89d1cadc5a5bb7" style="width: 100.0%; height: 100.0%;">Business: NOKSAEK INC<br>Address: 363 S WESTERN AVENUE<br>Distance to matching road: 1.980676381605951 m</div>`)[0];
+                popup_610fbe05245fbf0e62746842871a570d.setContent(html_58fe8871382314ea3e89d1cadc5a5bb7);
+            
+        
+
+        circle_marker_34cc6da1f46b04bd51d060a16c81bd68.bindPopup(popup_610fbe05245fbf0e62746842871a570d)
+        ;
+
+        
+    
+    
+            circle_marker_34cc6da1f46b04bd51d060a16c81bd68.bindTooltip(
+                `<div>
+                     363 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4f5d25ad8993b2e71900b1b2e2c3b307 = L.circleMarker(
+                [34.0683, -118.3095],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_b29c1fd36f866cecc9cc012601bab071 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8c8d3c79348f0c25a3e6017a19d9a61 = $(`<div id="html_e8c8d3c79348f0c25a3e6017a19d9a61" style="width: 100.0%; height: 100.0%;">Business: BEST SEED INC<br>Address: 345 S WESTERN AVENUE<br>Distance to matching road: 34.75143042849533 m</div>`)[0];
+                popup_b29c1fd36f866cecc9cc012601bab071.setContent(html_e8c8d3c79348f0c25a3e6017a19d9a61);
+            
+        
+
+        circle_marker_4f5d25ad8993b2e71900b1b2e2c3b307.bindPopup(popup_b29c1fd36f866cecc9cc012601bab071)
+        ;
+
+        
+    
+    
+            circle_marker_4f5d25ad8993b2e71900b1b2e2c3b307.bindTooltip(
+                `<div>
+                     345 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_414508134fe9d153beb761903871b81f = L.circleMarker(
+                [34.0652, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_95735a4e9c3d486c093b99e40ee0f940 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0428e61dd2f0ebf9c97bfa41db81ad0 = $(`<div id="html_e0428e61dd2f0ebf9c97bfa41db81ad0" style="width: 100.0%; height: 100.0%;">Business: H & K IMPERIAL CLEANERS INC<br>Address: 502 S WESTERN AVENUE<br>Distance to matching road: 1.0425866529579075 m</div>`)[0];
+                popup_95735a4e9c3d486c093b99e40ee0f940.setContent(html_e0428e61dd2f0ebf9c97bfa41db81ad0);
+            
+        
+
+        circle_marker_414508134fe9d153beb761903871b81f.bindPopup(popup_95735a4e9c3d486c093b99e40ee0f940)
+        ;
+
+        
+    
+    
+            circle_marker_414508134fe9d153beb761903871b81f.bindTooltip(
+                `<div>
+                     502 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bc4122492b47198fb85cb373582df96c = L.circleMarker(
+                [34.0642, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_8a768ceedec5b117fd765d12bbce43b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a24c3b31aede1e2674f385e3b0a0818 = $(`<div id="html_9a24c3b31aede1e2674f385e3b0a0818" style="width: 100.0%; height: 100.0%;">Business: VIBE SMOKE AND VAPE INC<br>Address: 547 S WESTERN AVENUE UNIT #B<br>Distance to matching road: 0.684292869342766 m</div>`)[0];
+                popup_8a768ceedec5b117fd765d12bbce43b5.setContent(html_9a24c3b31aede1e2674f385e3b0a0818);
+            
+        
+
+        circle_marker_bc4122492b47198fb85cb373582df96c.bindPopup(popup_8a768ceedec5b117fd765d12bbce43b5)
+        ;
+
+        
+    
+    
+            circle_marker_bc4122492b47198fb85cb373582df96c.bindTooltip(
+                `<div>
+                     547 S WESTERN AVENUE UNIT #B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_08bf521516bc1e20dae7f54008cde66e = L.circleMarker(
+                [34.0662, -118.3087],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_e554ef964246c52db55245257e9d5471 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d732d6759df143bbe936fd9d0f8bb03 = $(`<div id="html_8d732d6759df143bbe936fd9d0f8bb03" style="width: 100.0%; height: 100.0%;">Business: ANGEL BAI<br>Address: 430 S WESTERN AVENUE<br>Distance to matching road: 38.3179459796122 m</div>`)[0];
+                popup_e554ef964246c52db55245257e9d5471.setContent(html_8d732d6759df143bbe936fd9d0f8bb03);
+            
+        
+
+        circle_marker_08bf521516bc1e20dae7f54008cde66e.bindPopup(popup_e554ef964246c52db55245257e9d5471)
+        ;
+
+        
+    
+    
+            circle_marker_08bf521516bc1e20dae7f54008cde66e.bindTooltip(
+                `<div>
+                     430 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a2e1b88a5d6b10d9d6b95bd9fbe2c33f = L.circleMarker(
+                [34.0633, -118.309],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_d06a7ad5b2f4ac5a6c0dd70980e1a97a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca9b553298159f1b699928b88b4a10cd = $(`<div id="html_ca9b553298159f1b699928b88b4a10cd" style="width: 100.0%; height: 100.0%;">Business: YSK INVESTMENT CORPORATION<br>Address: 607 S WESTERN AVENUE SUITE #100<br>Distance to matching road: 9.590631243144635 m</div>`)[0];
+                popup_d06a7ad5b2f4ac5a6c0dd70980e1a97a.setContent(html_ca9b553298159f1b699928b88b4a10cd);
+            
+        
+
+        circle_marker_a2e1b88a5d6b10d9d6b95bd9fbe2c33f.bindPopup(popup_d06a7ad5b2f4ac5a6c0dd70980e1a97a)
+        ;
+
+        
+    
+    
+            circle_marker_a2e1b88a5d6b10d9d6b95bd9fbe2c33f.bindTooltip(
+                `<div>
+                     607 S WESTERN AVENUE SUITE #100
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2849cad5b51b3fa408f7418edfb59313 = L.circleMarker(
+                [34.0681, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_ef06f2fe278a6890d4348996bb490fcc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c524a9fc14ae664d8f0ddc2cee6ffac4 = $(`<div id="html_c524a9fc14ae664d8f0ddc2cee6ffac4" style="width: 100.0%; height: 100.0%;">Business: JK MARKET CO LLC<br>Address: 347 S WESTERN AVENUE<br>Distance to matching road: 2.09100119173317 m</div>`)[0];
+                popup_ef06f2fe278a6890d4348996bb490fcc.setContent(html_c524a9fc14ae664d8f0ddc2cee6ffac4);
+            
+        
+
+        circle_marker_2849cad5b51b3fa408f7418edfb59313.bindPopup(popup_ef06f2fe278a6890d4348996bb490fcc)
+        ;
+
+        
+    
+    
+            circle_marker_2849cad5b51b3fa408f7418edfb59313.bindTooltip(
+                `<div>
+                     347 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_877754787ce9e5016df204c304ab3a24 = L.circleMarker(
+                [34.0658, -118.3085],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_8eca80430cbefd045a4a39ac9663faae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d445b783c4ca4427cdeeeadfad60896 = $(`<div id="html_6d445b783c4ca4427cdeeeadfad60896" style="width: 100.0%; height: 100.0%;">Business: E YOUNG COLLECTION INC<br>Address: 450 S WESTERN AVENUE SUITE #209<br>Distance to matching road: 56.63325965916617 m</div>`)[0];
+                popup_8eca80430cbefd045a4a39ac9663faae.setContent(html_6d445b783c4ca4427cdeeeadfad60896);
+            
+        
+
+        circle_marker_877754787ce9e5016df204c304ab3a24.bindPopup(popup_8eca80430cbefd045a4a39ac9663faae)
+        ;
+
+        
+    
+    
+            circle_marker_877754787ce9e5016df204c304ab3a24.bindTooltip(
+                `<div>
+                     450 S WESTERN AVENUE SUITE #209
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7161011522d3b52c84cd0ae1483181a9 = L.circleMarker(
+                [34.0664, -118.3087],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_89a90739d726726b0c3991e5a0bc90a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06ab0c8641bbc1848dd911e6a6605113 = $(`<div id="html_06ab0c8641bbc1848dd911e6a6605113" style="width: 100.0%; height: 100.0%;">Business: CHRISTINE JUNG<br>Address: 422 S WESTERN AVENUE UNIT #207<br>Distance to matching road: 38.389559284739946 m</div>`)[0];
+                popup_89a90739d726726b0c3991e5a0bc90a0.setContent(html_06ab0c8641bbc1848dd911e6a6605113);
+            
+        
+
+        circle_marker_7161011522d3b52c84cd0ae1483181a9.bindPopup(popup_89a90739d726726b0c3991e5a0bc90a0)
+        ;
+
+        
+    
+    
+            circle_marker_7161011522d3b52c84cd0ae1483181a9.bindTooltip(
+                `<div>
+                     422 S WESTERN AVENUE UNIT #207
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cf357a6f2acab2033a57a93f6ab21705 = L.circleMarker(
+                [34.065, -118.309],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_536ee0f3f76772d66775a53be424dce7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51f539af5a49a99134668817689c8eb0 = $(`<div id="html_51f539af5a49a99134668817689c8eb0" style="width: 100.0%; height: 100.0%;">Business: FRANK N HANK LLC<br>Address: 518 S WESTERN AVENUE<br>Distance to matching road: 10.200280727365309 m</div>`)[0];
+                popup_536ee0f3f76772d66775a53be424dce7.setContent(html_51f539af5a49a99134668817689c8eb0);
+            
+        
+
+        circle_marker_cf357a6f2acab2033a57a93f6ab21705.bindPopup(popup_536ee0f3f76772d66775a53be424dce7)
+        ;
+
+        
+    
+    
+            circle_marker_cf357a6f2acab2033a57a93f6ab21705.bindTooltip(
+                `<div>
+                     518 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2a6be1c340e9a99310c3b8e5ee0e0789 = L.circleMarker(
+                [34.0668, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_ec6dbbcbbe8ae2dadc78d1450564eb01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50cf1fa92864fde6f95aef5c9e38dfdd = $(`<div id="html_50cf1fa92864fde6f95aef5c9e38dfdd" style="width: 100.0%; height: 100.0%;">Business: JBD FRANCHISE INC<br>Address: 414 S WESTERN AVENUE UNIT #D<br>Distance to matching road: 1.6161497025839977 m</div>`)[0];
+                popup_ec6dbbcbbe8ae2dadc78d1450564eb01.setContent(html_50cf1fa92864fde6f95aef5c9e38dfdd);
+            
+        
+
+        circle_marker_2a6be1c340e9a99310c3b8e5ee0e0789.bindPopup(popup_ec6dbbcbbe8ae2dadc78d1450564eb01)
+        ;
+
+        
+    
+    
+            circle_marker_2a6be1c340e9a99310c3b8e5ee0e0789.bindTooltip(
+                `<div>
+                     414 S WESTERN AVENUE UNIT #D
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_89bc351ae72635b87181db7f001bb2a3 = L.circleMarker(
+                [34.0646, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_aef4a3d3b34a569a6be744000d58d21c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53a3ed47856b66a9c81e4819003b4cdf = $(`<div id="html_53a3ed47856b66a9c81e4819003b4cdf" style="width: 100.0%; height: 100.0%;">Business: SUNNY SAEHAN LLC<br>Address: 538 S WESTERN AVENUE<br>Distance to matching road: 0.8276059797173014 m</div>`)[0];
+                popup_aef4a3d3b34a569a6be744000d58d21c.setContent(html_53a3ed47856b66a9c81e4819003b4cdf);
+            
+        
+
+        circle_marker_89bc351ae72635b87181db7f001bb2a3.bindPopup(popup_aef4a3d3b34a569a6be744000d58d21c)
+        ;
+
+        
+    
+    
+            circle_marker_89bc351ae72635b87181db7f001bb2a3.bindTooltip(
+                `<div>
+                     538 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_df6f89a68b59ccd10cae1bb6337df31d = L.circleMarker(
+                [34.0683, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_a7309ccdeda89fc88321d72462037bdf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad9ecd89f54e9cd99755ee5ce1eec500 = $(`<div id="html_ad9ecd89f54e9cd99755ee5ce1eec500" style="width: 100.0%; height: 100.0%;">Business: PARTY DIVINE, LLC<br>Address: 333 S WESTERN AVENUE SUITE #B<br>Distance to matching road: 2.164552899765501 m</div>`)[0];
+                popup_a7309ccdeda89fc88321d72462037bdf.setContent(html_ad9ecd89f54e9cd99755ee5ce1eec500);
+            
+        
+
+        circle_marker_df6f89a68b59ccd10cae1bb6337df31d.bindPopup(popup_a7309ccdeda89fc88321d72462037bdf)
+        ;
+
+        
+    
+    
+            circle_marker_df6f89a68b59ccd10cae1bb6337df31d.bindTooltip(
+                `<div>
+                     333 S WESTERN AVENUE SUITE #B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9577748e76b9398dcddf0697f44dcd80 = L.circleMarker(
+                [34.0644, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_fde3fba4746f70fd38301f6ec7fb0cea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbd395a8dbd0ed86e2bd96389eee1f24 = $(`<div id="html_fbd395a8dbd0ed86e2bd96389eee1f24" style="width: 100.0%; height: 100.0%;">Business: UBATUBA ACAI KOREATOWN LLC<br>Address: 549 S WESTERN AVENUE<br>Distance to matching road: 0.7559486906677736 m</div>`)[0];
+                popup_fde3fba4746f70fd38301f6ec7fb0cea.setContent(html_fbd395a8dbd0ed86e2bd96389eee1f24);
+            
+        
+
+        circle_marker_9577748e76b9398dcddf0697f44dcd80.bindPopup(popup_fde3fba4746f70fd38301f6ec7fb0cea)
+        ;
+
+        
+    
+    
+            circle_marker_9577748e76b9398dcddf0697f44dcd80.bindTooltip(
+                `<div>
+                     549 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9c2a7df425c7d5106ff071f7f7b87a0a = L.circleMarker(
+                [34.063, -118.3094],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_f46364c41486dc6a400c41a0a7266459 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec81c681f697f695cec022fe5ec9187d = $(`<div id="html_ec81c681f697f695cec022fe5ec9187d" style="width: 100.0%; height: 100.0%;">Business: KITCHEN CONCEPT<br>Address: 615 S WESTERN AVENUE<br>Distance to matching road: 27.43614059477657 m</div>`)[0];
+                popup_f46364c41486dc6a400c41a0a7266459.setContent(html_ec81c681f697f695cec022fe5ec9187d);
+            
+        
+
+        circle_marker_9c2a7df425c7d5106ff071f7f7b87a0a.bindPopup(popup_f46364c41486dc6a400c41a0a7266459)
+        ;
+
+        
+    
+    
+            circle_marker_9c2a7df425c7d5106ff071f7f7b87a0a.bindTooltip(
+                `<div>
+                     615 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d0031eb17d38bc9d6fc4a808509b2410 = L.circleMarker(
+                [34.0665, -118.3095],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_0129be03b78679aeb4199e2b69fa70f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e8eb9a5ae25104bfb324a93b8b09f013 = $(`<div id="html_e8eb9a5ae25104bfb324a93b8b09f013" style="width: 100.0%; height: 100.0%;">Business: K 6 GROUP INC<br>Address: 425 S WESTERN AVENUE UNIT #F<br>Distance to matching road: 35.408178622024 m</div>`)[0];
+                popup_0129be03b78679aeb4199e2b69fa70f3.setContent(html_e8eb9a5ae25104bfb324a93b8b09f013);
+            
+        
+
+        circle_marker_d0031eb17d38bc9d6fc4a808509b2410.bindPopup(popup_0129be03b78679aeb4199e2b69fa70f3)
+        ;
+
+        
+    
+    
+            circle_marker_d0031eb17d38bc9d6fc4a808509b2410.bindTooltip(
+                `<div>
+                     425 S WESTERN AVENUE UNIT #F
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_376d9715512e2b29016b561b2f87c5a4 = L.circleMarker(
+                [34.0678, -118.3093],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_124d01b44b11f9fcc4473070bdb20f4d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_be75630a219f515f2cc0089fba77b677 = $(`<div id="html_be75630a219f515f2cc0089fba77b677" style="width: 100.0%; height: 100.0%;">Business: SANG HO KIM<br>Address: 365 S WESTERN AVENUE<br>Distance to matching road: 16.477423309243836 m</div>`)[0];
+                popup_124d01b44b11f9fcc4473070bdb20f4d.setContent(html_be75630a219f515f2cc0089fba77b677);
+            
+        
+
+        circle_marker_376d9715512e2b29016b561b2f87c5a4.bindPopup(popup_124d01b44b11f9fcc4473070bdb20f4d)
+        ;
+
+        
+    
+    
+            circle_marker_376d9715512e2b29016b561b2f87c5a4.bindTooltip(
+                `<div>
+                     365 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1dbe3a4d6f21b63bcbaf2f08cb31f5f6 = L.circleMarker(
+                [34.0646, -118.3093],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_ab391cb525c802dfc14c6f7cf517d3da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_411b43a9c9858806529246a8b6206efa = $(`<div id="html_411b43a9c9858806529246a8b6206efa" style="width: 100.0%; height: 100.0%;">Business: CHEF KANG KFOOD INTERNATIONAL INC<br>Address: 539 S WESTERN AVENUE<br>Distance to matching road: 17.63119300123452 m</div>`)[0];
+                popup_ab391cb525c802dfc14c6f7cf517d3da.setContent(html_411b43a9c9858806529246a8b6206efa);
+            
+        
+
+        circle_marker_1dbe3a4d6f21b63bcbaf2f08cb31f5f6.bindPopup(popup_ab391cb525c802dfc14c6f7cf517d3da)
+        ;
+
+        
+    
+    
+            circle_marker_1dbe3a4d6f21b63bcbaf2f08cb31f5f6.bindTooltip(
+                `<div>
+                     539 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e302d1cc4831dea02456c04080ced045 = L.circleMarker(
+                [34.0645, -118.3092],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_4fac904f51c794c56f069b36859ca596 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c76362da026bfef8f44c1b40d161e754 = $(`<div id="html_c76362da026bfef8f44c1b40d161e754" style="width: 100.0%; height: 100.0%;">Business: SE YEON KIM<br>Address: 547 S WESTERN AVENUE<br>Distance to matching road: 8.437633074023376 m</div>`)[0];
+                popup_4fac904f51c794c56f069b36859ca596.setContent(html_c76362da026bfef8f44c1b40d161e754);
+            
+        
+
+        circle_marker_e302d1cc4831dea02456c04080ced045.bindPopup(popup_4fac904f51c794c56f069b36859ca596)
+        ;
+
+        
+    
+    
+            circle_marker_e302d1cc4831dea02456c04080ced045.bindTooltip(
+                `<div>
+                     547 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_de7396c78e0b992a6f4bfe1e003bdc01 = L.circleMarker(
+                [34.0684, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_95a8993fa8b16f4d1d3d097d6abd8a58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da6e4666d3855de781bde44a68542d28 = $(`<div id="html_da6e4666d3855de781bde44a68542d28" style="width: 100.0%; height: 100.0%;">Business: KUM CHA CHON<br>Address: 324 S WESTERN AVENUE UNIT #A<br>Distance to matching road: 2.201329304092384 m</div>`)[0];
+                popup_95a8993fa8b16f4d1d3d097d6abd8a58.setContent(html_da6e4666d3855de781bde44a68542d28);
+            
+        
+
+        circle_marker_de7396c78e0b992a6f4bfe1e003bdc01.bindPopup(popup_95a8993fa8b16f4d1d3d097d6abd8a58)
+        ;
+
+        
+    
+    
+            circle_marker_de7396c78e0b992a6f4bfe1e003bdc01.bindTooltip(
+                `<div>
+                     324 S WESTERN AVENUE UNIT #A
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_16ed3316472cc6348b188c957eb12a0a = L.circleMarker(
+                [34.0644, -118.3093],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_c74183005d529018a90ae27d2dab43da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ecf10db41e08b1ec0aeede3eafb0cce = $(`<div id="html_9ecf10db41e08b1ec0aeede3eafb0cce" style="width: 100.0%; height: 100.0%;">Business: SANDY LIQUOR MART LLC<br>Address: 553 S WESTERN AVENUE<br>Distance to matching road: 17.702893675934035 m</div>`)[0];
+                popup_c74183005d529018a90ae27d2dab43da.setContent(html_9ecf10db41e08b1ec0aeede3eafb0cce);
+            
+        
+
+        circle_marker_16ed3316472cc6348b188c957eb12a0a.bindPopup(popup_c74183005d529018a90ae27d2dab43da)
+        ;
+
+        
+    
+    
+            circle_marker_16ed3316472cc6348b188c957eb12a0a.bindTooltip(
+                `<div>
+                     553 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c353d16978b72a3b70d2dabd7aef7e99 = L.circleMarker(
+                [34.0665, -118.3094],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_2e2cbdbdb08558386c7d1ff60f73c8e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01b31870f11502f77266a0204504c6d6 = $(`<div id="html_01b31870f11502f77266a0204504c6d6" style="width: 100.0%; height: 100.0%;">Business: SARAH RHIM HAIR<br>Address: 425 S WESTERN AVENUE UNIT #C<br>Distance to matching road: 26.17898469618605 m</div>`)[0];
+                popup_2e2cbdbdb08558386c7d1ff60f73c8e9.setContent(html_01b31870f11502f77266a0204504c6d6);
+            
+        
+
+        circle_marker_c353d16978b72a3b70d2dabd7aef7e99.bindPopup(popup_2e2cbdbdb08558386c7d1ff60f73c8e9)
+        ;
+
+        
+    
+    
+            circle_marker_c353d16978b72a3b70d2dabd7aef7e99.bindTooltip(
+                `<div>
+                     425 S WESTERN AVENUE UNIT #C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fdf218c3d0de735766bdcb98ae2075f7 = L.circleMarker(
+                [34.0645, -118.3087],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_7dd190250859cb26290013284a124fcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c62adc1e67b9cd71a67f8a036c6362b = $(`<div id="html_1c62adc1e67b9cd71a67f8a036c6362b" style="width: 100.0%; height: 100.0%;">Business: JIMMY HAN<br>Address: 528 S WESTERN AVENUE<br>Distance to matching road: 37.70941580441817 m</div>`)[0];
+                popup_7dd190250859cb26290013284a124fcb.setContent(html_1c62adc1e67b9cd71a67f8a036c6362b);
+            
+        
+
+        circle_marker_fdf218c3d0de735766bdcb98ae2075f7.bindPopup(popup_7dd190250859cb26290013284a124fcb)
+        ;
+
+        
+    
+    
+            circle_marker_fdf218c3d0de735766bdcb98ae2075f7.bindTooltip(
+                `<div>
+                     528 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e906b034ae4b6f88af63fdf572dc576c = L.circleMarker(
+                [34.0651, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_16246c7a7ea1fe19fa7cff71b8b6ca87 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1ec63c1372cc5ea92c8085a87b03dc0b = $(`<div id="html_1ec63c1372cc5ea92c8085a87b03dc0b" style="width: 100.0%; height: 100.0%;">Business: JIMMY HAN<br>Address: 512 S WESTERN AVENUE<br>Distance to matching road: 1.0067556234720396 m</div>`)[0];
+                popup_16246c7a7ea1fe19fa7cff71b8b6ca87.setContent(html_1ec63c1372cc5ea92c8085a87b03dc0b);
+            
+        
+
+        circle_marker_e906b034ae4b6f88af63fdf572dc576c.bindPopup(popup_16246c7a7ea1fe19fa7cff71b8b6ca87)
+        ;
+
+        
+    
+    
+            circle_marker_e906b034ae4b6f88af63fdf572dc576c.bindTooltip(
+                `<div>
+                     512 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_61bcd8c8ad1aa686f07a84cf94aeefc3 = L.circleMarker(
+                [34.0645, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_f10496abaf7c3e86c1debff617644d32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a28210922c966d4118a604ce69a745a8 = $(`<div id="html_a28210922c966d4118a604ce69a745a8" style="width: 100.0%; height: 100.0%;">Business: BOKGA INC<br>Address: 545 S WESTERN AVENUE UNIT #D<br>Distance to matching road: 0.7917771517398176 m</div>`)[0];
+                popup_f10496abaf7c3e86c1debff617644d32.setContent(html_a28210922c966d4118a604ce69a745a8);
+            
+        
+
+        circle_marker_61bcd8c8ad1aa686f07a84cf94aeefc3.bindPopup(popup_f10496abaf7c3e86c1debff617644d32)
+        ;
+
+        
+    
+    
+            circle_marker_61bcd8c8ad1aa686f07a84cf94aeefc3.bindTooltip(
+                `<div>
+                     545 S WESTERN AVENUE UNIT #D
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2680636889cccd528dc71151584d14aa = L.circleMarker(
+                [34.0631, -118.3095],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_54061f022f38edf0a23b6b9e8178f5a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94b8dffba21c678ccf0e8cb17a0b1fff = $(`<div id="html_94b8dffba21c678ccf0e8cb17a0b1fff" style="width: 100.0%; height: 100.0%;">Business: WESTMOR DANCE STUDIO LLC<br>Address: 607 S WESTERN AVENUE<br>Distance to matching road: 36.62949822040248 m</div>`)[0];
+                popup_54061f022f38edf0a23b6b9e8178f5a1.setContent(html_94b8dffba21c678ccf0e8cb17a0b1fff);
+            
+        
+
+        circle_marker_2680636889cccd528dc71151584d14aa.bindPopup(popup_54061f022f38edf0a23b6b9e8178f5a1)
+        ;
+
+        
+    
+    
+            circle_marker_2680636889cccd528dc71151584d14aa.bindTooltip(
+                `<div>
+                     607 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_267dfea339543c5f563085c48bead9a2 = L.circleMarker(
+                [34.0647, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_0b80997a4e6f22b00b8379efa85ce222 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b95b8efb9a6da5b140af28156d386d3a = $(`<div id="html_b95b8efb9a6da5b140af28156d386d3a" style="width: 100.0%; height: 100.0%;">Business: YU JUNG RESTAURANT INC<br>Address: 533 S WESTERN AVENUE SUITE #C<br>Distance to matching road: 0.8634351746717966 m</div>`)[0];
+                popup_0b80997a4e6f22b00b8379efa85ce222.setContent(html_b95b8efb9a6da5b140af28156d386d3a);
+            
+        
+
+        circle_marker_267dfea339543c5f563085c48bead9a2.bindPopup(popup_0b80997a4e6f22b00b8379efa85ce222)
+        ;
+
+        
+    
+    
+            circle_marker_267dfea339543c5f563085c48bead9a2.bindTooltip(
+                `<div>
+                     533 S WESTERN AVENUE SUITE #C
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_273e40fe593a0f4ca30a24eb972e8dbc = L.circleMarker(
+                [34.0644, -118.3095],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_1893da27a707b81d470e7d7b06b18ecc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fca80c6e004a06049895118a8394a383 = $(`<div id="html_fca80c6e004a06049895118a8394a383" style="width: 100.0%; height: 100.0%;">Business: OMG NAILS INC<br>Address: 541 S WESTERN AVENUE<br>Distance to matching road: 36.16173694092164 m</div>`)[0];
+                popup_1893da27a707b81d470e7d7b06b18ecc.setContent(html_fca80c6e004a06049895118a8394a383);
+            
+        
+
+        circle_marker_273e40fe593a0f4ca30a24eb972e8dbc.bindPopup(popup_1893da27a707b81d470e7d7b06b18ecc)
+        ;
+
+        
+    
+    
+            circle_marker_273e40fe593a0f4ca30a24eb972e8dbc.bindTooltip(
+                `<div>
+                     541 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2c5161bf60f39835a800d28040314918 = L.circleMarker(
+                [34.0665, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_2ca047ffc73d1269998407412ac1edb9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_60fb0f87bb6b5e40997661cc1e1f70f3 = $(`<div id="html_60fb0f87bb6b5e40997661cc1e1f70f3" style="width: 100.0%; height: 100.0%;">Business: WILLIS SOO KANG<br>Address: 431 S WESTERN AVENUE<br>Distance to matching road: 1.5085957292457357 m</div>`)[0];
+                popup_2ca047ffc73d1269998407412ac1edb9.setContent(html_60fb0f87bb6b5e40997661cc1e1f70f3);
+            
+        
+
+        circle_marker_2c5161bf60f39835a800d28040314918.bindPopup(popup_2ca047ffc73d1269998407412ac1edb9)
+        ;
+
+        
+    
+    
+            circle_marker_2c5161bf60f39835a800d28040314918.bindTooltip(
+                `<div>
+                     431 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_bc532e98bd9ff1e64005fd081d8945aa = L.circleMarker(
+                [34.0661, -118.3092],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_5c3df06838f896212fa7deb71a11b322 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ba848f5e06fd3972cfe60e532f49a03 = $(`<div id="html_4ba848f5e06fd3972cfe60e532f49a03" style="width: 100.0%; height: 100.0%;">Business: HY DEVELOPMENT INC<br>Address: 433 S WESTERN AVENUE<br>Distance to matching road: 7.864041071707762 m</div>`)[0];
+                popup_5c3df06838f896212fa7deb71a11b322.setContent(html_4ba848f5e06fd3972cfe60e532f49a03);
+            
+        
+
+        circle_marker_bc532e98bd9ff1e64005fd081d8945aa.bindPopup(popup_5c3df06838f896212fa7deb71a11b322)
+        ;
+
+        
+    
+    
+            circle_marker_bc532e98bd9ff1e64005fd081d8945aa.bindTooltip(
+                `<div>
+                     433 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_291753d417a5b1c1ab2026d73963253d = L.circleMarker(
+                [34.0647, -118.309],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_a0ec379ff50f2f2f7c687159fd6632a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a222fce44e405f8a6abe738e8eadcfde = $(`<div id="html_a222fce44e405f8a6abe738e8eadcfde" style="width: 100.0%; height: 100.0%;">Business: INNOVATIVE DESSERT GROUP LLC<br>Address: 534 S WESTERN AVENUE<br>Distance to matching road: 10.092823480680895 m</div>`)[0];
+                popup_a0ec379ff50f2f2f7c687159fd6632a0.setContent(html_a222fce44e405f8a6abe738e8eadcfde);
+            
+        
+
+        circle_marker_291753d417a5b1c1ab2026d73963253d.bindPopup(popup_a0ec379ff50f2f2f7c687159fd6632a0)
+        ;
+
+        
+    
+    
+            circle_marker_291753d417a5b1c1ab2026d73963253d.bindTooltip(
+                `<div>
+                     534 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9082a85b0cdb22fc2e3850c6e148b79e = L.circleMarker(
+                [34.0647, -118.3087],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_52a5f7cff1ca87f425cb7f3f39c2c100 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e0f7e8a792cfb6f3dd9182f8ed460660 = $(`<div id="html_e0f7e8a792cfb6f3dd9182f8ed460660" style="width: 100.0%; height: 100.0%;">Business: TAT KOREATOWN LLC<br>Address: 520 S WESTERN AVENUE<br>Distance to matching road: 37.78098705583519 m</div>`)[0];
+                popup_52a5f7cff1ca87f425cb7f3f39c2c100.setContent(html_e0f7e8a792cfb6f3dd9182f8ed460660);
+            
+        
+
+        circle_marker_9082a85b0cdb22fc2e3850c6e148b79e.bindPopup(popup_52a5f7cff1ca87f425cb7f3f39c2c100)
+        ;
+
+        
+    
+    
+            circle_marker_9082a85b0cdb22fc2e3850c6e148b79e.bindTooltip(
+                `<div>
+                     520 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2d9ad3c4a57e174748d26ed71d2bc72d = L.circleMarker(
+                [34.0646, -118.3092],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_60deb9c9990fbcb54afdbbb7a274df0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc69df89181cc3fb424f21edee83429c = $(`<div id="html_dc69df89181cc3fb424f21edee83429c" style="width: 100.0%; height: 100.0%;">Business: DANIEL OH<br>Address: 543 S WESTERN AVENUE<br>Distance to matching road: 8.401793399613277 m</div>`)[0];
+                popup_60deb9c9990fbcb54afdbbb7a274df0a.setContent(html_dc69df89181cc3fb424f21edee83429c);
+            
+        
+
+        circle_marker_2d9ad3c4a57e174748d26ed71d2bc72d.bindPopup(popup_60deb9c9990fbcb54afdbbb7a274df0a)
+        ;
+
+        
+    
+    
+            circle_marker_2d9ad3c4a57e174748d26ed71d2bc72d.bindTooltip(
+                `<div>
+                     543 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3836f50508f12e26bedce69e741447fb = L.circleMarker(
+                [34.0668, -118.3086],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_f3100e74414553b1c6c5c3269e4bb8db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad275b0b0ecacc0f2fb50f276ce0ceda = $(`<div id="html_ad275b0b0ecacc0f2fb50f276ce0ceda" style="width: 100.0%; height: 100.0%;">Business: CLAYTON AND CASEY CORPORATION<br>Address: 414 S WESTERN AVENUE UNIT #E<br>Distance to matching road: 47.76194988294052 m</div>`)[0];
+                popup_f3100e74414553b1c6c5c3269e4bb8db.setContent(html_ad275b0b0ecacc0f2fb50f276ce0ceda);
+            
+        
+
+        circle_marker_3836f50508f12e26bedce69e741447fb.bindPopup(popup_f3100e74414553b1c6c5c3269e4bb8db)
+        ;
+
+        
+    
+    
+            circle_marker_3836f50508f12e26bedce69e741447fb.bindTooltip(
+                `<div>
+                     414 S WESTERN AVENUE UNIT #E
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d6471df02f32ec453a87746f69cacaf0 = L.circleMarker(
+                [34.064, -118.3095],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_105916da2474254e63688f161fb5318b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09d6527a26ae3a52b34b67a58441d969 = $(`<div id="html_09d6527a26ae3a52b34b67a58441d969" style="width: 100.0%; height: 100.0%;">Business: D & A OPERATIONS LLC<br>Address: 555 S WESTERN AVENUE<br>Distance to matching road: 36.30522065722475 m</div>`)[0];
+                popup_105916da2474254e63688f161fb5318b.setContent(html_09d6527a26ae3a52b34b67a58441d969);
+            
+        
+
+        circle_marker_d6471df02f32ec453a87746f69cacaf0.bindPopup(popup_105916da2474254e63688f161fb5318b)
+        ;
+
+        
+    
+    
+            circle_marker_d6471df02f32ec453a87746f69cacaf0.bindTooltip(
+                `<div>
+                     555 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6a8e380343bb4b9fd28c173384a2590f = L.circleMarker(
+                [34.0642, -118.3087],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_225eb836519d9a0b755ccdda5718fa07 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_997f2d4ef5ad7480ad74ce36efe09eb7 = $(`<div id="html_997f2d4ef5ad7480ad74ce36efe09eb7" style="width: 100.0%; height: 100.0%;">Business: JP TRADE INC.<br>Address: 538 S WESTERN AVENUE<br>Distance to matching road: 37.6020616784294 m</div>`)[0];
+                popup_225eb836519d9a0b755ccdda5718fa07.setContent(html_997f2d4ef5ad7480ad74ce36efe09eb7);
+            
+        
+
+        circle_marker_6a8e380343bb4b9fd28c173384a2590f.bindPopup(popup_225eb836519d9a0b755ccdda5718fa07)
+        ;
+
+        
+    
+    
+            circle_marker_6a8e380343bb4b9fd28c173384a2590f.bindTooltip(
+                `<div>
+                     538 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_defe83a89ec6e3f45b30344f7bead7e9 = L.circleMarker(
+                [34.067, -118.3087],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_c4171c0e490b60bbfa3a72d377621ea3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_207e7cf3c65917fd03df8f3a4eea17b6 = $(`<div id="html_207e7cf3c65917fd03df8f3a4eea17b6" style="width: 100.0%; height: 100.0%;">Business: GABIN LA, INC.<br>Address: 400 S WESTERN AVENUE SUITE #104<br>Distance to matching road: 38.60440800365086 m</div>`)[0];
+                popup_c4171c0e490b60bbfa3a72d377621ea3.setContent(html_207e7cf3c65917fd03df8f3a4eea17b6);
+            
+        
+
+        circle_marker_defe83a89ec6e3f45b30344f7bead7e9.bindPopup(popup_c4171c0e490b60bbfa3a72d377621ea3)
+        ;
+
+        
+    
+    
+            circle_marker_defe83a89ec6e3f45b30344f7bead7e9.bindTooltip(
+                `<div>
+                     400 S WESTERN AVENUE SUITE #104
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_43f85bc024969421e6b33ca3ffbba52b = L.circleMarker(
+                [34.0645, -118.3093],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_5d242895887c6640a59149b088f59814 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea9006c40e1ff25995b08e9d01fa6bc3 = $(`<div id="html_ea9006c40e1ff25995b08e9d01fa6bc3" style="width: 100.0%; height: 100.0%;">Business: JP TRADE INC.<br>Address: 543 S WESTERN AVENUE<br>Distance to matching road: 17.66704352207724 m</div>`)[0];
+                popup_5d242895887c6640a59149b088f59814.setContent(html_ea9006c40e1ff25995b08e9d01fa6bc3);
+            
+        
+
+        circle_marker_43f85bc024969421e6b33ca3ffbba52b.bindPopup(popup_5d242895887c6640a59149b088f59814)
+        ;
+
+        
+    
+    
+            circle_marker_43f85bc024969421e6b33ca3ffbba52b.bindTooltip(
+                `<div>
+                     543 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8d2aa7714c0caf33774edafd1ba87fb6 = L.circleMarker(
+                [34.0653, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_bed0611e74fa2e07044b6e1c8a220ad7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_790b96052ed2be828d0b5a6edd1fa85c = $(`<div id="html_790b96052ed2be828d0b5a6edd1fa85c" style="width: 100.0%; height: 100.0%;">Business: CARLS JR RESTAURANTS LLC<br>Address: 501 S WESTERN AVENUE<br>Distance to matching road: 1.0784180494029645 m</div>`)[0];
+                popup_bed0611e74fa2e07044b6e1c8a220ad7.setContent(html_790b96052ed2be828d0b5a6edd1fa85c);
+            
+        
+
+        circle_marker_8d2aa7714c0caf33774edafd1ba87fb6.bindPopup(popup_bed0611e74fa2e07044b6e1c8a220ad7)
+        ;
+
+        
+    
+    
+            circle_marker_8d2aa7714c0caf33774edafd1ba87fb6.bindTooltip(
+                `<div>
+                     501 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_749765b201bea4febc8f564943eccc30 = L.circleMarker(
+                [34.0643, -118.3087],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_c50fe8540253b6da655fc95c62763e73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7337b72d6e9ec40b0805ee8662864a47 = $(`<div id="html_7337b72d6e9ec40b0805ee8662864a47" style="width: 100.0%; height: 100.0%;">Business: CLINK WINE CLUB LLC<br>Address: 532 S WESTERN AVENUE<br>Distance to matching road: 37.637846020251125 m</div>`)[0];
+                popup_c50fe8540253b6da655fc95c62763e73.setContent(html_7337b72d6e9ec40b0805ee8662864a47);
+            
+        
+
+        circle_marker_749765b201bea4febc8f564943eccc30.bindPopup(popup_c50fe8540253b6da655fc95c62763e73)
+        ;
+
+        
+    
+    
+            circle_marker_749765b201bea4febc8f564943eccc30.bindTooltip(
+                `<div>
+                     532 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_88d44cb5f96108303cfe80f8b1607e80 = L.circleMarker(
+                [34.0658, -118.3095],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_46c01d30a24f72baa54f0f69b92362b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_368b183044baa9f5c5fc10464fa13d25 = $(`<div id="html_368b183044baa9f5c5fc10464fa13d25" style="width: 100.0%; height: 100.0%;">Business: JORDAN T LEER<br>Address: 445 S WESTERN AVENUE APT #205<br>Distance to matching road: 35.65942876382222 m</div>`)[0];
+                popup_46c01d30a24f72baa54f0f69b92362b3.setContent(html_368b183044baa9f5c5fc10464fa13d25);
+            
+        
+
+        circle_marker_88d44cb5f96108303cfe80f8b1607e80.bindPopup(popup_46c01d30a24f72baa54f0f69b92362b3)
+        ;
+
+        
+    
+    
+            circle_marker_88d44cb5f96108303cfe80f8b1607e80.bindTooltip(
+                `<div>
+                     445 S WESTERN AVENUE APT #205
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e3c0ffb49180e475e5f7aa9eeda6fdf8 = L.circleMarker(
+                [34.0682, -118.3087],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_7188337142bbe03513c9785e26e35535 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_044fbed869d9baf543456958cc1651c6 = $(`<div id="html_044fbed869d9baf543456958cc1651c6" style="width: 100.0%; height: 100.0%;">Business: HEE LAN HWANG<br>Address: 324 S WESTERN AVENUE<br>Distance to matching road: 39.043799999956185 m</div>`)[0];
+                popup_7188337142bbe03513c9785e26e35535.setContent(html_044fbed869d9baf543456958cc1651c6);
+            
+        
+
+        circle_marker_e3c0ffb49180e475e5f7aa9eeda6fdf8.bindPopup(popup_7188337142bbe03513c9785e26e35535)
+        ;
+
+        
+    
+    
+            circle_marker_e3c0ffb49180e475e5f7aa9eeda6fdf8.bindTooltip(
+                `<div>
+                     324 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_07b2467814a8d6ef5272b8ded9e61cf1 = L.circleMarker(
+                [34.0683, -118.3093],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_a63fbf7e7a9172f54862e54f0c4bfd61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_730a105da731df5733a51e92b2c4c12c = $(`<div id="html_730a105da731df5733a51e92b2c4c12c" style="width: 100.0%; height: 100.0%;">Business: CWJ ALLIANCE, LLC<br>Address: 333 S WESTERN AVENUE SUITE #A<br>Distance to matching road: 16.293438316824165 m</div>`)[0];
+                popup_a63fbf7e7a9172f54862e54f0c4bfd61.setContent(html_730a105da731df5733a51e92b2c4c12c);
+            
+        
+
+        circle_marker_07b2467814a8d6ef5272b8ded9e61cf1.bindPopup(popup_a63fbf7e7a9172f54862e54f0c4bfd61)
+        ;
+
+        
+    
+    
+            circle_marker_07b2467814a8d6ef5272b8ded9e61cf1.bindTooltip(
+                `<div>
+                     333 S WESTERN AVENUE SUITE #A
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_67f4c66d014379fee8ee26bc46322435 = L.circleMarker(
+                [34.0655, -118.3095],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_32bcccf179358a53dd4f81a77ed39da2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_031331ee88aa4b2c57d99653e3f7deed = $(`<div id="html_031331ee88aa4b2c57d99653e3f7deed" style="width: 100.0%; height: 100.0%;">Business: SD PHARMCARE INC<br>Address: 461 S WESTERN AVENUE<br>Distance to matching road: 35.76710189056805 m</div>`)[0];
+                popup_32bcccf179358a53dd4f81a77ed39da2.setContent(html_031331ee88aa4b2c57d99653e3f7deed);
+            
+        
+
+        circle_marker_67f4c66d014379fee8ee26bc46322435.bindPopup(popup_32bcccf179358a53dd4f81a77ed39da2)
+        ;
+
+        
+    
+    
+            circle_marker_67f4c66d014379fee8ee26bc46322435.bindTooltip(
+                `<div>
+                     461 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aea2f1676e79223c7d1f89ff7f451139 = L.circleMarker(
+                [34.064, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_c8f2498228284cb705a6247757e4d3e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8cdc8d2a839ae2cc5c6722ea60726973 = $(`<div id="html_8cdc8d2a839ae2cc5c6722ea60726973" style="width: 100.0%; height: 100.0%;">Business: PARKING COMPANY OF THE WEST, LLC<br>Address: 558 S WESTERN AVENUE<br>Distance to matching road: 0.6126385157155446 m</div>`)[0];
+                popup_c8f2498228284cb705a6247757e4d3e2.setContent(html_8cdc8d2a839ae2cc5c6722ea60726973);
+            
+        
+
+        circle_marker_aea2f1676e79223c7d1f89ff7f451139.bindPopup(popup_c8f2498228284cb705a6247757e4d3e2)
+        ;
+
+        
+    
+    
+            circle_marker_aea2f1676e79223c7d1f89ff7f451139.bindTooltip(
+                `<div>
+                     558 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_157c08701b7ecab18b72fe876cf1f119 = L.circleMarker(
+                [34.065, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_ddf173afb1153beb489f7885fe7bc5aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18c5f0e80ab385a5912d1c4ab3eea5dd = $(`<div id="html_18c5f0e80ab385a5912d1c4ab3eea5dd" style="width: 100.0%; height: 100.0%;">Business: HRB TAX GROUP INC<br>Address: 514 S WESTERN AVENUE<br>Distance to matching road: 0.9709249608556848 m</div>`)[0];
+                popup_ddf173afb1153beb489f7885fe7bc5aa.setContent(html_18c5f0e80ab385a5912d1c4ab3eea5dd);
+            
+        
+
+        circle_marker_157c08701b7ecab18b72fe876cf1f119.bindPopup(popup_ddf173afb1153beb489f7885fe7bc5aa)
+        ;
+
+        
+    
+    
+            circle_marker_157c08701b7ecab18b72fe876cf1f119.bindTooltip(
+                `<div>
+                     514 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fa6d1c6e5e4b737c7cfb5632a36c54a0 = L.circleMarker(
+                [34.0642, -118.3095],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_74cf07837d9ce8f970d2240edf23efc8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb7fa02c656e26169b79819853531585 = $(`<div id="html_bb7fa02c656e26169b79819853531585" style="width: 100.0%; height: 100.0%;">Business: CARDS AND COLLECTIBLES LLC<br>Address: 541 S WESTERN AVENUE<br>Distance to matching road: 36.23347953313026 m</div>`)[0];
+                popup_74cf07837d9ce8f970d2240edf23efc8.setContent(html_bb7fa02c656e26169b79819853531585);
+            
+        
+
+        circle_marker_fa6d1c6e5e4b737c7cfb5632a36c54a0.bindPopup(popup_74cf07837d9ce8f970d2240edf23efc8)
+        ;
+
+        
+    
+    
+            circle_marker_fa6d1c6e5e4b737c7cfb5632a36c54a0.bindTooltip(
+                `<div>
+                     541 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a96178b0153f28eb59281c0c8c7efa39 = L.circleMarker(
+                [34.0682, -118.3092],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_491f939f039b7f4207b74e15c16fa542 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b62374e2b14b7b9d72553670e134ee9d = $(`<div id="html_b62374e2b14b7b9d72553670e134ee9d" style="width: 100.0%; height: 100.0%;">Business: HANMI PHARMACY INC<br>Address: 325 1/2 S WESTERN AVENUE<br>Distance to matching road: 7.101229482776671 m</div>`)[0];
+                popup_491f939f039b7f4207b74e15c16fa542.setContent(html_b62374e2b14b7b9d72553670e134ee9d);
+            
+        
+
+        circle_marker_a96178b0153f28eb59281c0c8c7efa39.bindPopup(popup_491f939f039b7f4207b74e15c16fa542)
+        ;
+
+        
+    
+    
+            circle_marker_a96178b0153f28eb59281c0c8c7efa39.bindTooltip(
+                `<div>
+                     325 1/2 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d57d5047acbdd160f3c492463694fa3e = L.circleMarker(
+                [34.0664, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_02bfd12e3649ff0d0e398c548daa9a12 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc11bb62ffedc15d7a10e317d0c3f933 = $(`<div id="html_fc11bb62ffedc15d7a10e317d0c3f933" style="width: 100.0%; height: 100.0%;">Business: YONG JEONG WON<br>Address: 439 S WESTERN AVENUE UNIT #101<br>Distance to matching road: 1.4727451385587318 m</div>`)[0];
+                popup_02bfd12e3649ff0d0e398c548daa9a12.setContent(html_fc11bb62ffedc15d7a10e317d0c3f933);
+            
+        
+
+        circle_marker_d57d5047acbdd160f3c492463694fa3e.bindPopup(popup_02bfd12e3649ff0d0e398c548daa9a12)
+        ;
+
+        
+    
+    
+            circle_marker_d57d5047acbdd160f3c492463694fa3e.bindTooltip(
+                `<div>
+                     439 S WESTERN AVENUE UNIT #101
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b24dc2a1975f245537b45f749e3fe9c3 = L.circleMarker(
+                [34.0631, -118.3092],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_5148dd578d6d486502814581a3305efd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b987d776b6255aee335067d7e4629fc9 = $(`<div id="html_b987d776b6255aee335067d7e4629fc9" style="width: 100.0%; height: 100.0%;">Business: WESTERN AXE LLC<br>Address: 611 S WESTERN AVENUE<br>Distance to matching road: 8.94081348413865 m</div>`)[0];
+                popup_5148dd578d6d486502814581a3305efd.setContent(html_b987d776b6255aee335067d7e4629fc9);
+            
+        
+
+        circle_marker_b24dc2a1975f245537b45f749e3fe9c3.bindPopup(popup_5148dd578d6d486502814581a3305efd)
+        ;
+
+        
+    
+    
+            circle_marker_b24dc2a1975f245537b45f749e3fe9c3.bindTooltip(
+                `<div>
+                     611 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_325631a402ab0f225bf17e50955b0f9a = L.circleMarker(
+                [34.0663, -118.3107],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_2c5c634291fee9a70cbd66208a3e5a6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_94bc32aca403595175a0b293c6b11f3d = $(`<div id="html_94bc32aca403595175a0b293c6b11f3d" style="width: 100.0%; height: 100.0%;">Business: NIPONG NAEPONG CMP INC<br>Address: 450 S WESTERN AVENUE #FC4<br>Distance to matching road: 146.23057115349317 m</div>`)[0];
+                popup_2c5c634291fee9a70cbd66208a3e5a6c.setContent(html_94bc32aca403595175a0b293c6b11f3d);
+            
+        
+
+        circle_marker_325631a402ab0f225bf17e50955b0f9a.bindPopup(popup_2c5c634291fee9a70cbd66208a3e5a6c)
+        ;
+
+        
+    
+    
+            circle_marker_325631a402ab0f225bf17e50955b0f9a.bindTooltip(
+                `<div>
+                     450 S WESTERN AVENUE #FC4
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0e6fdf70c25ee7c1de7a6e4c2fec1d0e = L.circleMarker(
+                [34.0635, -118.3092],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_748ae34795b7d6f671064a204d99c547 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_360a3756a441bcc11f61180f94d381c0 = $(`<div id="html_360a3756a441bcc11f61180f94d381c0" style="width: 100.0%; height: 100.0%;">Business: 6TH STREET PARTNERS LLC<br>Address: 601 S WESTERN AVENUE<br>Distance to matching road: 8.7960798666526 m</div>`)[0];
+                popup_748ae34795b7d6f671064a204d99c547.setContent(html_360a3756a441bcc11f61180f94d381c0);
+            
+        
+
+        circle_marker_0e6fdf70c25ee7c1de7a6e4c2fec1d0e.bindPopup(popup_748ae34795b7d6f671064a204d99c547)
+        ;
+
+        
+    
+    
+            circle_marker_0e6fdf70c25ee7c1de7a6e4c2fec1d0e.bindTooltip(
+                `<div>
+                     601 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ecc2b1ffb18c6f5c0636b15b3a2e4951 = L.circleMarker(
+                [34.0648, -118.309],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_f99da638d28699555e88c7307f59e51a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05dc2b26fa616c75de272c7fa6e9a367 = $(`<div id="html_05dc2b26fa616c75de272c7fa6e9a367" style="width: 100.0%; height: 100.0%;">Business: MONTY'S GOOD BURGERS LLC<br>Address: 516 S WESTERN AVENUE<br>Distance to matching road: 10.128642195960332 m</div>`)[0];
+                popup_f99da638d28699555e88c7307f59e51a.setContent(html_05dc2b26fa616c75de272c7fa6e9a367);
+            
+        
+
+        circle_marker_ecc2b1ffb18c6f5c0636b15b3a2e4951.bindPopup(popup_f99da638d28699555e88c7307f59e51a)
+        ;
+
+        
+    
+    
+            circle_marker_ecc2b1ffb18c6f5c0636b15b3a2e4951.bindTooltip(
+                `<div>
+                     516 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_62789f270216575e802261f46139a176 = L.circleMarker(
+                [34.0627, -118.3095],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_c55a5b9ee4264d818ce08f9588df453b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96f14062a4fd8a87ba3204005e9bde0d = $(`<div id="html_96f14062a4fd8a87ba3204005e9bde0d" style="width: 100.0%; height: 100.0%;">Business: LEEKAJA HAIRBIS, INC.<br>Address: 621 S WESTERN AVENUE #206<br>Distance to matching road: 36.77435611818304 m</div>`)[0];
+                popup_c55a5b9ee4264d818ce08f9588df453b.setContent(html_96f14062a4fd8a87ba3204005e9bde0d);
+            
+        
+
+        circle_marker_62789f270216575e802261f46139a176.bindPopup(popup_c55a5b9ee4264d818ce08f9588df453b)
+        ;
+
+        
+    
+    
+            circle_marker_62789f270216575e802261f46139a176.bindTooltip(
+                `<div>
+                     621 S WESTERN AVENUE #206
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7b685cb77379a82a830514370ebdcea5 = L.circleMarker(
+                [34.0666, -118.3087],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_58e13098374a11a0abe0248ab2e87b52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fbef8653fb78d41eb9f4ac7e280edcf = $(`<div id="html_9fbef8653fb78d41eb9f4ac7e280edcf" style="width: 100.0%; height: 100.0%;">Business: JUN WON FOOD INC<br>Address: 414 S WESTERN AVENUE SUITE #B<br>Distance to matching road: 38.461174057181246 m</div>`)[0];
+                popup_58e13098374a11a0abe0248ab2e87b52.setContent(html_9fbef8653fb78d41eb9f4ac7e280edcf);
+            
+        
+
+        circle_marker_7b685cb77379a82a830514370ebdcea5.bindPopup(popup_58e13098374a11a0abe0248ab2e87b52)
+        ;
+
+        
+    
+    
+            circle_marker_7b685cb77379a82a830514370ebdcea5.bindTooltip(
+                `<div>
+                     414 S WESTERN AVENUE SUITE #B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a05f1b91f8757abc07fdf1c81b943cd1 = L.circleMarker(
+                [34.0627, -118.309],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_cb2b37a4e96731ce924774d13c8f9520 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c75b58173ed02bf0a1b8fc127110fcaa = $(`<div id="html_c75b58173ed02bf0a1b8fc127110fcaa" style="width: 100.0%; height: 100.0%;">Business: KOST EAT INC<br>Address: 621 S WESTERN AVENUE SUITE #100-A<br>Distance to matching road: 9.373667574243983 m</div>`)[0];
+                popup_cb2b37a4e96731ce924774d13c8f9520.setContent(html_c75b58173ed02bf0a1b8fc127110fcaa);
+            
+        
+
+        circle_marker_a05f1b91f8757abc07fdf1c81b943cd1.bindPopup(popup_cb2b37a4e96731ce924774d13c8f9520)
+        ;
+
+        
+    
+    
+            circle_marker_a05f1b91f8757abc07fdf1c81b943cd1.bindTooltip(
+                `<div>
+                     621 S WESTERN AVENUE SUITE #100-A
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_07d21a53e14d770f1abd4de5eec837a7 = L.circleMarker(
+                [34.068, -118.3092],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_cb8d687041e304868fb02d61d39d816f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b5a7f9b597fa3aa9247392da2a086fd3 = $(`<div id="html_b5a7f9b597fa3aa9247392da2a086fd3" style="width: 100.0%; height: 100.0%;">Business: SUN AE WON<br>Address: 333 S WESTERN AVENUE UNIT #B<br>Distance to matching road: 7.174802151885252 m</div>`)[0];
+                popup_cb8d687041e304868fb02d61d39d816f.setContent(html_b5a7f9b597fa3aa9247392da2a086fd3);
+            
+        
+
+        circle_marker_07d21a53e14d770f1abd4de5eec837a7.bindPopup(popup_cb8d687041e304868fb02d61d39d816f)
+        ;
+
+        
+    
+    
+            circle_marker_07d21a53e14d770f1abd4de5eec837a7.bindTooltip(
+                `<div>
+                     333 S WESTERN AVENUE UNIT #B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cbc0c03d763d26bcfcb695aa7a29483e = L.circleMarker(
+                [34.0681, -118.3087],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_9f5a8cc780a71ce99e36aca14dd068c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e28bdab624021b83c8c80339f2126a16 = $(`<div id="html_e28bdab624021b83c8c80339f2126a16" style="width: 100.0%; height: 100.0%;">Business: MONICA H CHUNG<br>Address: 324 S WESTERN AVENUE #A<br>Distance to matching road: 39.00706771924866 m</div>`)[0];
+                popup_9f5a8cc780a71ce99e36aca14dd068c8.setContent(html_e28bdab624021b83c8c80339f2126a16);
+            
+        
+
+        circle_marker_cbc0c03d763d26bcfcb695aa7a29483e.bindPopup(popup_9f5a8cc780a71ce99e36aca14dd068c8)
+        ;
+
+        
+    
+    
+            circle_marker_cbc0c03d763d26bcfcb695aa7a29483e.bindTooltip(
+                `<div>
+                     324 S WESTERN AVENUE #A
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cad487ea7a0bac16a00d4d9c341edc48 = L.circleMarker(
+                [34.0627, -118.3091],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_a95804c924572afe7e4b227690c0da15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1e8ceb99e2f7a13d400c67850014841 = $(`<div id="html_a1e8ceb99e2f7a13d400c67850014841" style="width: 100.0%; height: 100.0%;">Business: THE GOOD FACE SOUTHERN CA INC<br>Address: 621 S WESTERN AVENUE UNIT #G01<br>Distance to matching road: 0.1440632853560706 m</div>`)[0];
+                popup_a95804c924572afe7e4b227690c0da15.setContent(html_a1e8ceb99e2f7a13d400c67850014841);
+            
+        
+
+        circle_marker_cad487ea7a0bac16a00d4d9c341edc48.bindPopup(popup_a95804c924572afe7e4b227690c0da15)
+        ;
+
+        
+    
+    
+            circle_marker_cad487ea7a0bac16a00d4d9c341edc48.bindTooltip(
+                `<div>
+                     621 S WESTERN AVENUE UNIT #G01
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_481f46c63e3511c243c2798cdd007d56 = L.circleMarker(
+                [34.0677, -118.3092],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_b50fcf77a960f1a74b94a1ef2bfec526 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d604d098035c8ad301c46e79bacb960 = $(`<div id="html_6d604d098035c8ad301c46e79bacb960" style="width: 100.0%; height: 100.0%;">Business: JIN HUA HAN<br>Address: 341 1/2 S WESTERN AVENUE   #16<br>Distance to matching road: 7.285158403295674 m</div>`)[0];
+                popup_b50fcf77a960f1a74b94a1ef2bfec526.setContent(html_6d604d098035c8ad301c46e79bacb960);
+            
+        
+
+        circle_marker_481f46c63e3511c243c2798cdd007d56.bindPopup(popup_b50fcf77a960f1a74b94a1ef2bfec526)
+        ;
+
+        
+    
+    
+            circle_marker_481f46c63e3511c243c2798cdd007d56.bindTooltip(
+                `<div>
+                     341 1/2 S WESTERN AVENUE   #16
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_66f9a09989c4f8a408fda24c1972ba88 = L.circleMarker(
+                [34.0661, -118.3095],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_47b193f59f31e28fe686be7f979227c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3a050753e36f50dba88e8fe195ca4bc = $(`<div id="html_c3a050753e36f50dba88e8fe195ca4bc" style="width: 100.0%; height: 100.0%;">Business: TAE WOONG CHEONG<br>Address: 433 S WESTERN AVENUE<br>Distance to matching road: 35.55175233380636 m</div>`)[0];
+                popup_47b193f59f31e28fe686be7f979227c5.setContent(html_c3a050753e36f50dba88e8fe195ca4bc);
+            
+        
+
+        circle_marker_66f9a09989c4f8a408fda24c1972ba88.bindPopup(popup_47b193f59f31e28fe686be7f979227c5)
+        ;
+
+        
+    
+    
+            circle_marker_66f9a09989c4f8a408fda24c1972ba88.bindTooltip(
+                `<div>
+                     433 S WESTERN AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e9f4a10a53785ce203e8f365c4e386b7 = L.circleMarker(
+                [34.0663, -118.3095],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_c4f8b2a9cf93a80fd1db617f0032eec0);
+        
+    
+        var popup_276a9a72b9b987aba16ccaf9bb031235 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6295fe3bef17cb89ed1519ab8b56f59b = $(`<div id="html_6295fe3bef17cb89ed1519ab8b56f59b" style="width: 100.0%; height: 100.0%;">Business: 431 WESTERN LLC<br>Address: 429 S WESTERN AVENUE #B<br>Distance to matching road: 35.479966211954746 m</div>`)[0];
+                popup_276a9a72b9b987aba16ccaf9bb031235.setContent(html_6295fe3bef17cb89ed1519ab8b56f59b);
+            
+        
+
+        circle_marker_e9f4a10a53785ce203e8f365c4e386b7.bindPopup(popup_276a9a72b9b987aba16ccaf9bb031235)
+        ;
+
+        
+    
+    
+            circle_marker_e9f4a10a53785ce203e8f365c4e386b7.bindTooltip(
+                `<div>
+                     429 S WESTERN AVENUE #B
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            map_c4f8b2a9cf93a80fd1db617f0032eec0.fitBounds(
+                [[34.0624, -118.3107], [34.0685, -118.3085]],
+                {}
+            );
+        
+</script>
+</html>

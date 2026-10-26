@@ -1,0 +1,21 @@
+﻿OLYMPIC BOULEVARD — ENDPOINT INSPECTION
+======================================
+
+OBJECTID 79807
+Address range: 1601-1699
+Coordinate count: 4
+Start: (-118.2741906334, 34.0491984211)
+End:   (-118.2753925954, 34.0497371641)
+Endpoint-to-nearest-other-line flag: 126.02 m
+Status: Geometry present; connectivity and intended extent unresolved.
+
+OBJECTID 98752
+Address range: 5501-5549
+Coordinate count: 2
+Start: (-118.3490951038, 34.0572931550)
+End:   (-118.3502406525, 34.0573193751)
+Endpoint-to-nearest-other-line flag: 105.78 m
+Status: Geometry present; connectivity and intended extent unresolved.
+
+No source geometry modified.
+No business records deleted.

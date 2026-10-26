@@ -1,0 +1,40 @@
+# Western Avenue Commercial Corridor Analysis
+
+## 1. Objective
+The objective is to identify and analyze business clusters along Western Avenue in Los Angeles using business location data, road geometry, and spatial clustering.
+
+## 2. Data Sources
+- Los Angeles business listing dataset.
+- Western Avenue centerline geometry from OpenStreetMap or another verified road-data source.
+- Business categories represented by NAICS descriptions.
+
+## 3. Data Preparation
+Business records containing longitude and latitude were collected and checked. Duplicate coordinates were examined because multiple businesses may share a building address or geocoded point. Coordinates were projected into UTM Zone 11N (EPSG:32611) for distance calculations in metres.
+
+## 4. Clustering Methods
+Two density-based methods were compared:
+- DBSCAN: tested with a 40-metre neighborhood radius and a minimum of four points.
+- HDBSCAN: tested with a minimum cluster size of four and minimum samples of four.
+
+Both methods were evaluated using unique coordinate locations to reduce the effect of repeated business coordinates.
+
+## 5. Preliminary Results
+- Business records analyzed: 251.
+- Unique coordinate locations: 75.
+- DBSCAN on unique locations: 4 clusters and 7 noise locations.
+- HDBSCAN on unique locations: 4 clusters and 6 noise locations.
+- Unique locations within 50 metres of the Western Avenue centerline: 72 out of 75 (96%).
+
+## 6. Validation
+Road alignment was assessed by calculating the distance between each unique business location and the road centerline. Cluster sizes, noise points, road distances, and business categories were also examined.
+
+Road proximity is a useful validation measure, but it does not independently establish that clusters form a continuous commercial corridor. Map inspection, endpoint selection, and planning evidence are still required.
+
+## 7. Limitations
+- Several businesses share identical coordinates, potentially representing building-level geocoding.
+- The current dataset covers only the collected geographic area and may not represent the entire Western Avenue corridor.
+- Density-based clusters are analytical groupings, not automatically official corridor boundaries.
+- Final corridor endpoints and width require documented geographic and planning justification.
+
+## 8. Conclusion
+The preliminary analysis identifies spatial groups of businesses near Western Avenue. DBSCAN and HDBSCAN provide comparable cluster counts on unique coordinate locations, while road-distance validation indicates that most unique locations are close to the centerline. Further visual and planning-based validation is necessary before presenting a final corridor boundary as definitive.

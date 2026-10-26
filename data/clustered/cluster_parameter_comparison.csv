@@ -1,0 +1,16 @@
+corridor,eps_meters,min_samples,business_records,unique_locations,clusters,noise_locations,noise_business_records,noise_location_percent
+larchmont_boulevard,25,4,823,173,10,42,82,24.28
+larchmont_boulevard,40,4,823,173,3,8,11,4.62
+larchmont_boulevard,60,4,823,173,1,5,6,2.89
+olympic_boulevard,25,4,1329,396,24,171,692,43.18
+olympic_boulevard,40,4,1329,396,20,58,193,14.65
+olympic_boulevard,60,4,1329,396,13,20,61,5.05
+vermont_avenue,25,4,1074,340,20,152,520,44.71
+vermont_avenue,40,4,1074,340,19,59,198,17.35
+vermont_avenue,60,4,1074,340,11,8,26,2.35
+western_avenue,25,4,251,75,4,33,168,44.0
+western_avenue,40,4,251,75,4,7,56,9.33
+western_avenue,60,4,251,75,1,1,2,1.33
+wilshire_boulevard,25,4,6188,506,22,277,3880,54.74
+wilshire_boulevard,40,4,6188,506,29,158,2550,31.23
+wilshire_boulevard,60,4,6188,506,16,40,703,7.91

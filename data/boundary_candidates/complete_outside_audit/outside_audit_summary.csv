@@ -1,0 +1,5 @@
+corridor,buffer_m,businesses_outside,median_distance_to_road_m,minimum_distance_to_road_m,maximum_distance_to_road_m
+wilshire_boulevard,100,505,114.16,100.69,191.01
+wilshire_boulevard,150,10,157.42,157.42,191.01
+olympic_boulevard,100,2,541.13,162.01,920.25
+olympic_boulevard,150,2,541.13,162.01,920.25

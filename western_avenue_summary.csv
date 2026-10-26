@@ -1,0 +1,5 @@
+dataset,method,records,clusters,noise
+Business records,DBSCAN,251,7,2
+Business records,HDBSCAN,251,19,52
+Unique locations,DBSCAN,75,4,7
+Unique locations,HDBSCAN,75,4,6

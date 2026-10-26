@@ -1,0 +1,5 @@
+corridor,business_records,unique_locations,clusters,noise_records,noise_percent,eps_meters,min_samples,status
+larchmont_boulevard,823,173,3,9,1.09,40,4,PROVISIONAL — not clipped to validated corridor boundaries
+olympic_boulevard,1329,396,30,38,2.86,40,4,PROVISIONAL — not clipped to validated corridor boundaries
+vermont_avenue,1074,340,32,43,4.0,40,4,PROVISIONAL — not clipped to validated corridor boundaries
+wilshire_boulevard,6188,506,99,44,0.71,40,4,PROVISIONAL — not clipped to validated corridor boundaries

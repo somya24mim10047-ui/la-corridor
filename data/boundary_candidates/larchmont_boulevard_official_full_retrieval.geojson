@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "larchmont_boulevard_official_full_retrieval",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 100037, "STNAME": "LARCHMONT", "STSFX": "BLVD", "ADRF": 300, "ADRT": 498 }, "geometry": { "type": "LineString", "coordinates": [ [ -118.323650533585578, 34.07621184915336 ], [ -118.323659714367778, 34.07859037662238 ], [ -118.323661126519426, 34.078955265606808 ] ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 100431, "STNAME": "LARCHMONT", "STSFX": "BLVD", "ADRF": 500, "ADRT": 598 }, "geometry": { "type": "LineString", "coordinates": [ [ -118.323661126519426, 34.078955265606808 ], [ -118.323671395161426, 34.081681735931724 ] ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 109308, "STNAME": "LARCHMONT", "STSFX": "BLVD", "ADRF": 100, "ADRT": 298 }, "geometry": { "type": "LineString", "coordinates": [ [ -118.323542442900717, 34.073028276040638 ], [ -118.323553939539721, 34.076211212230881 ] ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 124634, "STNAME": "LARCHMONT", "STSFX": "BLVD", "ADRF": 101, "ADRT": 199 }, "geometry": { "type": "LineString", "coordinates": [ [ -118.323735620212673, 34.073028910754793 ], [ -118.323728535200033, 34.071129529468251 ] ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 127732, "STNAME": "LARCHMONT", "STSFX": "BLVD", "ADRF": 0, "ADRT": 0 }, "geometry": { "type": "LineString", "coordinates": [ [ -118.323735620212673, 34.073028910754793 ], [ -118.323747493245762, 34.076212469706284 ] ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 131648, "STNAME": "LARCHMONT", "STSFX": "BLVD", "ADRF": 600, "ADRT": 698 }, "geometry": { "type": "LineString", "coordinates": [ [ -118.323671395161426, 34.081681735931724 ], [ -118.323677028496576, 34.08350124837245 ] ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 146957, "STNAME": "LARCHMONT", "STSFX": "BLVD", "ADRF": 201, "ADRT": 299 }, "geometry": { "type": "LineString", "coordinates": [ [ -118.323728535200033, 34.071129529468251 ], [ -118.32372589505141, 34.070346875312225 ], [ -118.32372117889615, 34.068950339187758 ] ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 153685, "STNAME": "LARCHMONT", "STSFX": "BLVD", "ADRF": 0, "ADRT": 0 }, "geometry": { "type": "LineString", "coordinates": [ [ -118.323542442900717, 34.073028276040638 ], [ -118.323535361481305, 34.071128801725791 ] ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 157058, "STNAME": "LARCHMONT", "STSFX": "BLVD", "ADRF": 0, "ADRT": 0 }, "geometry": { "type": "LineString", "coordinates": [ [ -118.323535361481305, 34.071128801725791 ], [ -118.323532725824265, 34.070346857453323 ], [ -118.323531920933789, 34.070110381801747 ], [ -118.323528017753873, 34.068950537870997 ] ] } }
+]
+}

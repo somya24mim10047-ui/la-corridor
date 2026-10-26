@@ -1,0 +1,65 @@
+CORRIDOR BOUNDARY DECISION REPORT
+============================================================
+
+Purpose: document boundary evidence before finalizing buffers.
+No source datasets or corridor boundaries were modified.
+
+SUMMARY FROM THE EXISTING AUDIT
+------------------------------------------------------------
+           corridor  buffer_m  business_records  inside_count  inside_pct  outside_count  median_road_distance_m
+ wilshire_boulevard        50              6188          4356       70.39           1832                   16.62
+ wilshire_boulevard       100              6188          5683       91.84            505                   16.62
+ wilshire_boulevard       150              6188          6178       99.84             10                   16.62
+  olympic_boulevard        50              1329          1266       95.26             63                   11.48
+  olympic_boulevard       100              1329          1327       99.85              2                   11.48
+  olympic_boulevard       150              1329          1327       99.85              2                   11.48
+     vermont_avenue        50              1074          1031       96.00             43                    7.87
+     vermont_avenue       100              1074          1073       99.91              1                    7.87
+     vermont_avenue       150              1074          1073       99.91              1                    7.87
+larchmont_boulevard        50               823           823      100.00              0                    5.86
+larchmont_boulevard       100               823           823      100.00              0                    5.86
+larchmont_boulevard       150               823           823      100.00              0                    5.86
+
+EXCEPTION REVIEW
+------------------------------------------------------------
+
+WILSHIRE BOULEVARD
+- 10 businesses at 690 Wilshire Place are outside 150 m.
+- Nearby official Wilshire Place segments are about 3–91 m away.
+- Treat as likely side-street/address-matching exceptions.
+- Do not widen the Wilshire Boulevard buffer automatically.
+
+OLYMPIC BOULEVARD
+- SJ Investment: address says Olympic Blvd; nearest returned road
+  is Pico Blvd at about 9.5 m.
+- High School Alumni Association: nearest returned streets are
+  about 142–146 m away despite the Olympic Blvd address.
+- Investigate address/coordinate and road-source coverage.
+
+VERMONT AVENUE
+- Elena L Garcia: address says Vermont Avenue; nearest returned
+  roads are Kingsley Drive (about 12.6 m) and Beverly Blvd
+  (about 20 m). Investigate possible geocoding mismatch.
+
+DECISION
+------------------------------------------------------------
+- Keep existing corridor geometry unchanged for now.
+- Do not delete exception records.
+- Do not finalize buffer widths from inclusion percentages alone.
+- Review the actual road extents and intended corridor endpoints.
+- Resolve exceptions before rerunning clustering.
+
+REVIEW MAPS
+------------------------------------------------------------
+- larchmont_boulevard_100m_review.png
+- larchmont_boulevard_150m_review.png
+- larchmont_boulevard_50m_review.png
+- olympic_boulevard_100m_review.png
+- olympic_boulevard_150m_review.png
+- olympic_boulevard_50m_review.png
+- vermont_avenue_100m_review.png
+- vermont_avenue_150m_review.png
+- vermont_avenue_50m_review.png
+- wilshire_boulevard_100m_review.png
+- wilshire_boulevard_150m_review.png
+- wilshire_boulevard_50m_review.png

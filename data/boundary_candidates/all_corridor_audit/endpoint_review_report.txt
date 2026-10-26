@@ -1,0 +1,43 @@
+﻿CORRIDOR ENDPOINT REVIEW
+=======================
+
+Purpose:
+Record disconnected-endpoint flags for manual review.
+These flags do not prove that road geometry is incomplete.
+
+LARCHMONT BOULEVARD
+- OBJECTID: 131648
+- Address range: 600-698
+- Endpoint-to-nearest-other-line distance: 201.78 m
+- Status: UNRESOLVED
+
+OLYMPIC BOULEVARD
+- OBJECTID: 79807; address range 1601-1699
+- Endpoint-to-nearest-other-line distance: 126.02 m
+- Status: UNRESOLVED
+
+- OBJECTID: 98752; address range 5501-5549
+- Endpoint-to-nearest-other-line distance: 105.78 m
+- Status: UNRESOLVED
+
+VERMONT AVENUE
+- OBJECTID: 81212
+- Address range: 4701-4739
+- Endpoint-to-nearest-other-line distance: 103.78 m
+- Status: UNRESOLVED
+
+WILSHIRE BOULEVARD
+- OBJECTID: 108976
+- Address range: 2001-2099
+- Endpoint-to-nearest-other-line distance: 125.84 m
+- Status: UNRESOLVED
+
+DECISION
+--------
+- No road geometry was modified.
+- No business records were deleted.
+- Endpoint flags require visual and intersection-level verification.
+- Do not classify a flagged endpoint as a missing segment without
+  supporting evidence.
+- Final buffer approval and final clustering remain pending.
+

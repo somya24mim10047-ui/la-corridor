@@ -1,0 +1,6 @@
+corridor,business_records,inside,outside,inside_percent,boundary_valid,polygon_parts
+western_avenue,251,246,5,98.01,True,1
+larchmont_boulevard,823,823,0,100.0,True,1
+olympic_boulevard,1329,1114,215,83.82,True,9
+vermont_avenue,1074,1073,1,99.91,True,1
+wilshire_boulevard,6188,5361,827,86.64,True,7

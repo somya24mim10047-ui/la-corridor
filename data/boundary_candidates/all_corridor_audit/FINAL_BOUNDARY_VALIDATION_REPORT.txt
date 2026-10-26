@@ -1,0 +1,55 @@
+FINAL CORRIDOR BOUNDARY VALIDATION REPORT
+================================================
+
+Status: PROVISIONAL — geometry and exceptions require final review.
+Original business records and source road geometries must be preserved.
+Do not delete or relocate exception records solely to improve inclusion.
+
+WORKING BUFFER SUMMARY
+------------------------------------------------
+
+Larchmont Boulevard
+Working buffer: 50 m
+Road features: see source summary
+Business records: 823
+Inside: 823 (100.00%)
+Outside: 0
+Median distance to road: 5.86 m
+Decision: Provisional 50m buffer. All records are inside; verify extent visually.
+
+Olympic Boulevard
+Working buffer: 100 m
+Road features: see source summary
+Business records: 1329
+Inside: 1327 (99.85%)
+Outside: 2
+Median distance to road: 11.48 m
+Decision: Provisional 100m buffer. Review 2 exceptions; do not widen automatically.
+
+Vermont Avenue
+Working buffer: 100 m
+Road features: see source summary
+Business records: 1074
+Inside: 1073 (99.91%)
+Outside: 1
+Median distance to road: 7.87 m
+Decision: Provisional 100m buffer. Review the coordinate exception; do not alter its coordinates.
+
+Wilshire Boulevard
+Working buffer: 100 m
+Road features: see source summary
+Business records: 6188
+Inside: 5683 (91.84%)
+Outside: 505
+Median distance to road: 16.62 m
+Decision: Provisional 100m buffer. Review 505 outside records; do not finalize from inclusion alone.
+
+FINALIZATION CHECKLIST
+------------------------------------------------
+[ ] Verify corridor start/end points and road coverage.
+[ ] Review exception locations against the full street network and addresses.
+[ ] Confirm buffer width based on corridor definition, not inclusion alone.
+[ ] Preserve all original records and document unresolved exceptions.
+[ ] Rerun clustering only after boundary decisions are accepted.
+
+This report records provisional decisions, not proof that every boundary is correct.

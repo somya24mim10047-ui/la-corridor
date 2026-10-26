@@ -1,0 +1,6 @@
+           corridor                           status                                                              source     geometry  area_km2  valid                                                            note
+     western_avenue POLYGON FOUND - REVIEW ENDPOINTS                               western_avenue_final_boundary.geojson      Polygon  0.149064   True Existing polygon candidate; not independently endpoint-verified
+larchmont_boulevard POLYGON FOUND - REVIEW ENDPOINTS data\boundary_candidates\larchmont_boulevard_100m_candidate.geojson      Polygon  0.370734   True Existing polygon candidate; not independently endpoint-verified
+  olympic_boulevard POLYGON FOUND - REVIEW ENDPOINTS   data\boundary_candidates\olympic_boulevard_100m_candidate.geojson MultiPolygon  1.172695   True Existing polygon candidate; not independently endpoint-verified
+     vermont_avenue POLYGON FOUND - REVIEW ENDPOINTS      data\boundary_candidates\vermont_avenue_100m_candidate.geojson      Polygon  1.064867   True Existing polygon candidate; not independently endpoint-verified
+ wilshire_boulevard POLYGON FOUND - REVIEW ENDPOINTS  data\boundary_candidates\wilshire_boulevard_100m_candidate.geojson MultiPolygon  1.297495   True Existing polygon candidate; not independently endpoint-verified

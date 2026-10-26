@@ -1,0 +1,53 @@
+﻿FINAL BOUNDARY VALIDATION STATUS
+================================
+
+OVERALL STATUS:
+TECHNICAL CHECKS PASSED; GEOGRAPHIC APPROVAL PROVISIONAL.
+
+1. GEOMETRY AUDIT
+-----------------
+Larchmont Boulevard: 50 m buffer; valid polygon; 9/9 road features covered.
+Olympic Boulevard: 100 m buffer; valid polygon; 74/74 road features covered.
+Vermont Avenue: 100 m buffer; valid polygon; 122/122 road features covered.
+Wilshire Boulevard: 100 m buffer; valid polygon; 85/85 road features covered.
+
+Western Avenue: saved polygon valid; area 0.1491 sq km;
+both specified endpoint points covered. Real-world extent not independently confirmed.
+
+2. BUSINESS EXCEPTIONS
+----------------------
+Wilshire Boulevard: 505 records outside 100 m; 57 outside 125 m;
+10 outside 150 m. Review side-street/address matching.
+Olympic Boulevard: 2 exceptions, including one about 920 m from the
+included geometry.
+Vermont Avenue: 1 exception about 1,052 m from the included geometry.
+Larchmont Boulevard: all 823 records within 50 m, but intended endpoint
+extent still requires confirmation.
+
+3. ENDPOINT REVIEW
+------------------
+Automated endpoint checks flagged:
+Larchmont: 1 endpoint, about 201.78 m from another road line.
+Olympic: 2 endpoints, about 126.02 m and 105.78 m.
+Vermont: 1 endpoint, about 103.78 m.
+Wilshire: 1 endpoint, about 125.84 m.
+
+These flags do not prove missing roads; verify intended corridor extents.
+
+4. DECISION
+-----------
+Keep source business records and road geometries unchanged.
+Keep current buffer widths as provisional working candidates.
+Do not widen buffers solely to increase business inclusion.
+Do not describe clustering results as final until boundary decisions
+and exception handling are accepted.
+
+5. REMAINING ACTIONS
+--------------------
+[ ] Confirm intended corridor endpoints and real-world road coverage.
+[ ] Review address/coordinate exceptions against the full street network.
+[ ] Approve and document final buffer widths.
+[ ] Rerun clustering after boundary decisions are accepted.
+
+This report separates completed technical checks from unresolved
+geographic decisions. It does not claim full geographic approval.

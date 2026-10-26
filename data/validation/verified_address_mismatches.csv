@@ -1,0 +1,3 @@
+business_name,searched_address,matched_address,match_score,recorded_lat,recorded_lon,geocoded_latitude,geocoded_longitude,coordinate_difference_m,review_status,original_coordinates_preserved,correction_applied
+ELENA L GARCIA,"225 N Vermont Avenue, Los Angeles, CA","5518033032, 225 N VERMONT AVE, LOS ANGELES CA, 90004",100,34.0761,-118.3031,34.0753235065161,-118.29207015652946,1019.5390756036056,REVIEW_REQUIRED_OVER_100M,True,False
+SJ INVESTMENT 2020 LLC,"3400 W Olympic Blvd, Los Angeles, CA","5081031025, 3400 W OLYMPIC BLVD, LOS ANGELES CA, 90019",100,34.0487,-118.3362,34.05234988531319,-118.31247775492815,2222.891492859823,REVIEW_REQUIRED_OVER_100M,True,False

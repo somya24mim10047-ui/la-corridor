@@ -1,0 +1,137 @@
+dbscan_cluster,primary_naics_description,business_count
+-1,Full-service restaurants,11
+-1,Limited-service eating places,6
+-1,All other personal services,4
+-1,,4
+-1,Barber shops,3
+-1,Offices of physicians (except mental health specialists),3
+-1,"All other miscellaneous store retailers (including tobacco, candle, & trophy shops)",2
+-1,Beauty salons,2
+-1,General merchandise stores,2
+-1,Women's clothing stores,2
+-1,Clothing accessories stores,1
+-1,Full-Service Restaurants,1
+-1,Home furnishings stores,1
+-1,Household appliance stores,1
+-1,Jewelry stores,1
+-1,Lessors of Nonresidential Buildings (except Miniwarehouses),1
+-1,Limited-Service Restaurants,1
+-1,Meat markets,1
+-1,Nail salons,1
+-1,Offices of all other miscellaneous health practitioners,1
+-1,"Offices of physical, occupational & speech therapists, & audiologists",1
+-1,Other activities related to real estate,1
+-1,Other chemical products & preparation mfg.,1
+-1,Other personal care services (including diet & weight reducing centers),1
+-1,Pharmacies & drug stores,1
+-1,Real estate property managers,1
+-1,Special food services (including food service contractors & caterers),1
+0,,6
+0,General merchandise stores,3
+0,Lessors of real estate (including mini warehouses & self-storage units),3
+0,Beauty salons,2
+0,"Educational services (including schools, colleges, & universities)",2
+0,Grocery stores (including supermarkets & convenience stores without gas),2
+0,"Independent artists, writers, & performers",2
+0,Other consumer goods rental,2
+0,All other personal services,1
+0,All other specialty trade contractors,1
+0,Barber shops,1
+0,Book stores,1
+0,Drycleaning & laundry services (except coin-operated) (including laundry & drycleaning drop-off & pickup sites),1
+0,"Electrical equipment, appliance, & component mfg.",1
+0,Electronic shopping,1
+0,Employment services,1
+0,Family clothing stores,1
+0,Formal wear & costume rental,1
+0,Full-service restaurants,1
+0,Home furnishings stores,1
+0,Mobile Food Services,1
+0,Nail salons,1
+0,Offices of all other miscellaneous health practitioners,1
+0,Offices of physicians (except mental health specialists),1
+0,"Other amusement & recreation services (including golf courses, skiing facilities, marinas, fitness centers, bowling centers, skating rinks, miniature golf courses)",1
+0,Other health & personal care stores,1
+0,Other miscellaneous nondurable goods,1
+0,Other personal care services (including diet & weight reducing centers),1
+0,Outpatient  care centers,1
+0,Pet care (except veterinary) services,1
+0,Pharmacies & drug stores,1
+0,Services for the Elderly and Persons with Disabilities,1
+0,Unclassified establishments (unable to classify),1
+0,Women's clothing stores,1
+1,Full-service restaurants,6
+1,Beauty salons,5
+1,Lessors of real estate (including mini warehouses & self-storage units),5
+1,,4
+1,"All other miscellaneous store retailers (including tobacco, candle, & trophy shops)",2
+1,All other personal services,2
+1,Drinking places (alcoholic beverages),2
+1,Offices of all other miscellaneous health practitioners,2
+1,Offices of physicians (except mental health specialists),2
+1,Barber shops,1
+1,Computer & electronic product mfg.,1
+1,Fine Arts Schools,1
+1,Full-Service Restaurants,1
+1,"Independent artists, writers, & performers",1
+1,Investigation & security services,1
+1,Other Management Consulting Services,1
+1,Other accounting services,1
+1,Other activities related to real estate,1
+1,Other financial investment activities (including investment advice),1
+1,"Other food mfg. (including coffee, tea, flavoring, & seasonings)",1
+1,Other personal care services (including diet & weight reducing centers),1
+1,Outpatient  care centers,1
+1,Pharmacies & drug stores,1
+1,Professional & commercial equipment & supplies,1
+1,Real estate property managers,1
+1,Special food services (including food service contractors & caterers),1
+1,Wholesale trade agents & brokers,1
+1,Women's clothing stores,1
+2,Full-service restaurants,10
+2,Lessors of real estate (including mini warehouses & self-storage units),6
+2,Nail salons,4
+2,,4
+2,Parking lots & garages,3
+2,Tobacco & tobacco products,3
+2,All other personal services,2
+2,Special food services (including food service contractors & caterers),2
+2,"Beer, wine & liquor stores",1
+2,Coin-operated laundries & drycleaners,1
+2,Computer & electronic product mfg.,1
+2,Drinking places (alcoholic beverages),1
+2,Electronic & precision equipment repair & maintenance,1
+2,General merchandise stores,1
+2,Janitorial services,1
+2,Limited-service eating places,1
+2,Medical Marijuana Collective,1
+2,Offices of all other miscellaneous health practitioners,1
+2,"Other food mfg. (including coffee, tea, flavoring, & seasonings)",1
+2,Sugar & confectionery product mfg.,1
+2,Tax preparation services,1
+3,Full-service restaurants,11
+3,Limited-service eating places,5
+3,,4
+3,All other personal services,3
+3,"Cosmetics, beauty supplies, & perfume stores",3
+3,General merchandise stores,2
+3,Parking lots & garages,2
+3,Special food services (including food service contractors & caterers),2
+3,Wholesale trade agents & brokers,2
+3,Advertising & related services,1
+3,Amusement parks & arcades,1
+3,Barber shops,1
+3,Beauty salons,1
+3,Computer & electronic product mfg.,1
+3,"Gift, novelty, & souvenir stores",1
+3,Grocery stores (including supermarkets & convenience stores without gas),1
+3,Luggage & leather goods stores,1
+3,Market research & public opinion polling,1
+3,Motion Picture Theaters (except Drive-Ins),1
+3,Offices of dentists,1
+3,"Other amusement & recreation services (including golf courses, skiing facilities, marinas, fitness centers, bowling centers, skating rinks, miniature golf courses)",1
+3,Other consumer goods rental,1
+3,"Other food mfg. (including coffee, tea, flavoring, & seasonings)",1
+3,Other miscellaneous nondurable goods,1
+3,Real estate property managers,1
+3,Tobacco & tobacco products,1

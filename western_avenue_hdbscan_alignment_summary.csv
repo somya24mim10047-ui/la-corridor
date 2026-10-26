@@ -1,0 +1,6 @@
+hdbscan_cluster,locations,median_road_distance_m,mean_road_distance_m,within_25m,within_50m
+-1,6,45.86,53.41,2,3
+0,17,7.29,15.69,12,17
+1,7,9.59,18.41,4,7
+2,19,35.48,24.11,7,19
+3,26,9.27,14.19,19,26

@@ -1,0 +1,5 @@
+buffer_each_side_m,businesses_inside,total_businesses,percentage_inside,boundary_area_km2
+50,192,251,76.49,0.0745
+100,246,251,98.01,0.1491
+150,248,251,98.8,0.2236
+200,248,251,98.8,0.2981
