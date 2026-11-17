@@ -1,0 +1,133 @@
+corridor,business_category,business_count,share_pct
+Larchmont Boulevard,Accommodation and Tourism,1,0.12468827930174563
+Larchmont Boulevard,Administrative and Support Services,35,4.364089775561098
+Larchmont Boulevard,Agriculture and Natural Resources,3,0.3740648379052369
+Larchmont Boulevard,Alcoholic Beverage Retail,1,0.12468827930174563
+Larchmont Boulevard,Arts Entertainment and Recreation,60,7.4812967581047385
+Larchmont Boulevard,Construction and Trades,18,2.2443890274314215
+Larchmont Boulevard,Education,12,1.4962593516209477
+Larchmont Boulevard,Financial Services,23,2.8678304239401498
+Larchmont Boulevard,Food Services,25,3.117206982543641
+Larchmont Boulevard,Grocery and Food Retail,1,0.12468827930174563
+Larchmont Boulevard,Health and Personal Care Retail,10,1.2468827930174564
+Larchmont Boulevard,Healthcare,98,12.219451371571072
+Larchmont Boulevard,Housing and Property,109,13.591022443890274
+Larchmont Boulevard,Information and Media,57,7.107231920199501
+Larchmont Boulevard,Manufacturing,12,1.4962593516209477
+Larchmont Boulevard,Other Services,2,0.24937655860349126
+Larchmont Boulevard,Personal Care and Household Services,61,7.605985037406484
+Larchmont Boulevard,Professional Services,98,12.219451371571072
+Larchmont Boulevard,Rental Services,5,0.6234413965087282
+Larchmont Boulevard,Retail - Other,46,5.7356608478802995
+Larchmont Boulevard,Social Assistance,12,1.4962593516209477
+Larchmont Boulevard,Transportation and Parking,8,0.997506234413965
+Larchmont Boulevard,Transportation and Warehousing,6,0.7481296758104738
+Larchmont Boulevard,Unclassified,2,0.24937655860349126
+Larchmont Boulevard,Unknown,68,8.478802992518704
+Larchmont Boulevard,Wholesale Trade,29,3.6159600997506236
+Olympic Boulevard,Accommodation and Tourism,3,0.2051983584131327
+Olympic Boulevard,Administrative and Support Services,75,5.1299589603283176
+Olympic Boulevard,Agriculture and Natural Resources,5,0.3419972640218878
+Olympic Boulevard,Alcoholic Beverage Retail,1,0.06839945280437756
+Olympic Boulevard,Arts Entertainment and Recreation,40,2.7359781121751023
+Olympic Boulevard,Construction and Trades,48,3.283173734610123
+Olympic Boulevard,Education,28,1.915184678522572
+Olympic Boulevard,Financial Services,35,2.3939808481532148
+Olympic Boulevard,Food Services,78,5.33515731874145
+Olympic Boulevard,Grocery and Food Retail,13,0.8891928864569083
+Olympic Boulevard,Health and Personal Care Retail,24,1.6415868673050615
+Olympic Boulevard,Healthcare,140,9.575923392612859
+Olympic Boulevard,Housing and Property,163,11.149110807113544
+Olympic Boulevard,Information and Media,24,1.6415868673050615
+Olympic Boulevard,Manufacturing,40,2.7359781121751023
+Olympic Boulevard,Other Services,26,1.7783857729138166
+Olympic Boulevard,Personal Care and Household Services,170,11.627906976744185
+Olympic Boulevard,Professional Services,179,12.243502051983585
+Olympic Boulevard,Rental Services,21,1.4363885088919288
+Olympic Boulevard,Retail - Other,113,7.729138166894665
+Olympic Boulevard,Social Assistance,15,1.0259917920656634
+Olympic Boulevard,Transportation and Parking,6,0.4103967168262654
+Olympic Boulevard,Transportation and Warehousing,30,2.0519835841313268
+Olympic Boulevard,Unclassified,7,0.478796169630643
+Olympic Boulevard,Unknown,107,7.3187414500684
+Olympic Boulevard,Wholesale Trade,71,4.856361149110807
+Vermont Avenue,Accommodation and Tourism,2,0.14357501794687724
+Vermont Avenue,Administrative and Support Services,85,6.101938262742283
+Vermont Avenue,Agriculture and Natural Resources,1,0.07178750897343862
+Vermont Avenue,Alcoholic Beverage Retail,3,0.21536252692031585
+Vermont Avenue,Arts Entertainment and Recreation,29,2.0818377602297202
+Vermont Avenue,Construction and Trades,31,2.2254127781765973
+Vermont Avenue,Education,22,1.5793251974156497
+Vermont Avenue,Financial Services,27,1.938262742282843
+Vermont Avenue,Food Services,116,8.327351040918881
+Vermont Avenue,Grocery and Food Retail,22,1.5793251974156497
+Vermont Avenue,Health and Personal Care Retail,23,1.6511127063890882
+Vermont Avenue,Healthcare,95,6.81981335247667
+Vermont Avenue,Housing and Property,147,10.552763819095476
+Vermont Avenue,Information and Media,24,1.7229002153625268
+Vermont Avenue,Manufacturing,48,3.4458004307250536
+Vermont Avenue,Other Services,27,1.938262742282843
+Vermont Avenue,Other or Unmapped,1,0.07178750897343862
+Vermont Avenue,Personal Care and Household Services,171,12.275664034458005
+Vermont Avenue,Professional Services,128,9.188801148600144
+Vermont Avenue,Rental Services,25,1.7946877243359656
+Vermont Avenue,Retail - Other,136,9.763101220387654
+Vermont Avenue,Social Assistance,9,0.6460875807609476
+Vermont Avenue,Transportation and Parking,15,1.0768126346015794
+Vermont Avenue,Transportation and Warehousing,24,1.7229002153625268
+Vermont Avenue,Unclassified,7,0.5025125628140703
+Vermont Avenue,Unknown,88,6.317300789662599
+Vermont Avenue,Wholesale Trade,87,6.24551328068916
+Western Avenue,Accommodation and Tourism,1,0.2364066193853428
+Western Avenue,Administrative and Support Services,8,1.8912529550827424
+Western Avenue,Alcoholic Beverage Retail,1,0.2364066193853428
+Western Avenue,Arts Entertainment and Recreation,14,3.309692671394799
+Western Avenue,Construction and Trades,5,1.1820330969267139
+Western Avenue,Education,7,1.6548463356973995
+Western Avenue,Financial Services,4,0.9456264775413712
+Western Avenue,Food Services,72,17.02127659574468
+Western Avenue,Grocery and Food Retail,5,1.1820330969267139
+Western Avenue,Health and Personal Care Retail,8,1.8912529550827424
+Western Avenue,Healthcare,22,5.200945626477541
+Western Avenue,Housing and Property,42,9.929078014184398
+Western Avenue,Information and Media,6,1.4184397163120568
+Western Avenue,Manufacturing,16,3.7825059101654848
+Western Avenue,Other Services,4,0.9456264775413712
+Western Avenue,Other or Unmapped,1,0.2364066193853428
+Western Avenue,Personal Care and Household Services,63,14.893617021276595
+Western Avenue,Professional Services,28,6.619385342789598
+Western Avenue,Rental Services,5,1.1820330969267139
+Western Avenue,Retail - Other,40,9.456264775413711
+Western Avenue,Social Assistance,4,0.9456264775413712
+Western Avenue,Transportation and Parking,8,1.8912529550827424
+Western Avenue,Transportation and Warehousing,3,0.7092198581560284
+Western Avenue,Unclassified,3,0.7092198581560284
+Western Avenue,Unknown,36,8.51063829787234
+Western Avenue,Wholesale Trade,17,4.0189125295508275
+Wilshire Boulevard,Accommodation and Tourism,9,0.2222222222222222
+Wilshire Boulevard,Administrative and Support Services,169,4.172839506172839
+Wilshire Boulevard,Agriculture and Natural Resources,9,0.2222222222222222
+Wilshire Boulevard,Alcoholic Beverage Retail,1,0.02469135802469136
+Wilshire Boulevard,Arts Entertainment and Recreation,157,3.8765432098765427
+Wilshire Boulevard,Construction and Trades,111,2.740740740740741
+Wilshire Boulevard,Education,104,2.567901234567901
+Wilshire Boulevard,Financial Services,168,4.148148148148148
+Wilshire Boulevard,Food Services,124,3.0617283950617287
+Wilshire Boulevard,Grocery and Food Retail,8,0.19753086419753088
+Wilshire Boulevard,Health and Personal Care Retail,32,0.7901234567901235
+Wilshire Boulevard,Healthcare,182,4.493827160493828
+Wilshire Boulevard,Housing and Property,523,12.91358024691358
+Wilshire Boulevard,Information and Media,123,3.037037037037037
+Wilshire Boulevard,Manufacturing,91,2.246913580246914
+Wilshire Boulevard,Other Services,29,0.7160493827160495
+Wilshire Boulevard,Other or Unmapped,2,0.04938271604938272
+Wilshire Boulevard,Personal Care and Household Services,309,7.629629629629629
+Wilshire Boulevard,Professional Services,948,23.40740740740741
+Wilshire Boulevard,Rental Services,51,1.2592592592592593
+Wilshire Boulevard,Retail - Other,202,4.987654320987654
+Wilshire Boulevard,Social Assistance,47,1.1604938271604939
+Wilshire Boulevard,Transportation and Parking,50,1.2345679012345678
+Wilshire Boulevard,Transportation and Warehousing,26,0.6419753086419753
+Wilshire Boulevard,Unclassified,30,0.7407407407407408
+Wilshire Boulevard,Unknown,327,8.074074074074074
+Wilshire Boulevard,Wholesale Trade,218,5.382716049382716

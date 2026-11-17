@@ -1,0 +1,6 @@
+corridor,total_service_categories,below_benchmark_service_count,positive_misfit_signal_count,highest_category_misfit_score,highest_signal_service,community_pressure_score,Education_score,Grocery_score,Healthcare_score,Pharmacy_score,Social Assistance_score
+Larchmont Boulevard,5,1,0,0.0,No positive signal,0,0.0,0.0,0.0,0.0,0.0
+Olympic Boulevard,5,4,0,0.0,No positive signal,0,0.0,0.0,0.0,0.0,0.0
+Vermont Avenue,5,4,4,30.23,Social Assistance,50,25.7,0.0,16.19,5.41,30.23
+Western Avenue,5,3,3,27.34,Education,50,27.34,0.0,27.06,0.0,24.26
+Wilshire Boulevard,5,3,3,52.21,Grocery,100,0.0,52.21,0.79,41.46,0.0

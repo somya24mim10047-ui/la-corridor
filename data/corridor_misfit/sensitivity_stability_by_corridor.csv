@@ -1,0 +1,6 @@
+corridor,minimum_positive_signals,maximum_positive_signals,minimum_highest_score,maximum_highest_score,sensitivity_status
+Larchmont Boulevard,0,0,0.0,0.0,Stable across tested methods
+Olympic Boulevard,0,4,0.0,40.04,Threshold-sensitive
+Vermont Avenue,4,4,30.23,30.23,Stable across tested methods
+Western Avenue,3,3,27.34,27.34,Stable across tested methods
+Wilshire Boulevard,0,3,0.0,52.21,Threshold-sensitive
